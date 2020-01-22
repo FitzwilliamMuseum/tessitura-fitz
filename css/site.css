@@ -29,7 +29,7 @@
   .shout {
     color: white!important;
     font-family: 'Yrsa', serif;
-    font-size: 6rem;
+    font-size: 4rem;
     margin-top:4rem;
   }
   .shout-less {
@@ -318,7 +318,7 @@ body {
   .shout {
     color: white!important;
     font-family: 'Yrsa', serif;
-    font-size: 10rem;
+    font-size: 6rem;
     margin-top:4rem;
   }
   .shout-less {
