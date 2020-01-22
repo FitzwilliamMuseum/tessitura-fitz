@@ -8,6 +8,7 @@ html {
 }
 .jumbotron{
   margin-bottom: 0;
+  margin-top: 3rem;
 }
 
 .head {
@@ -31,8 +32,8 @@ html {
   .shout {
     color: white!important;
     font-family: 'Yrsa', serif;
-    font-size: 4rem!important;
-    margin-top:4rem;
+    font-size: 8rem!important;
+    margin-top:2rem;
   }
   .shout-less {
     color: white!important;
