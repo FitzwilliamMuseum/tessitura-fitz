@@ -425,7 +425,8 @@ body {
 .tn-production-season-detail-page-layout__main-container,
 .tn-production-season-detail-page-layout__main-container--with-image,
 .tn-error-page,
-.tn-cart-details-page {
+.tn-cart-details-page,
+.tn-account-login-page {
   border: none!important;
   box-shadow: 0 0 4px 0 rgba(0,0,0,.14),0 3px 4px 0 rgba(0,0,0,.12),0 1px 5px 0 rgba(0,0,0,.2)!important
 }
@@ -454,7 +455,8 @@ body {
 .tn-production-season-detail-page-layout__main-container,
 .tn-production-season-detail-page-layout__main-container--with-image,
 .tn-error-page,
-.tn-cart-details-page {
+.tn-cart-details-page,
+.tn-account-login-page {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #fafafa;
