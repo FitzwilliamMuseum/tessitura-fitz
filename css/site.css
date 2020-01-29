@@ -461,7 +461,10 @@ label {
 .tn-event-detail__main-container {
   order: 1!important;
   margin-bottom: 10px!important;
+  width: 70%;
 }
 .tn-event-detail__additional-events-container {
   order: 2!important;
+  width: 30%!important;
+  margin-rightL 60px;
 }
