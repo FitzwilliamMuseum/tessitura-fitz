@@ -459,7 +459,7 @@ label {
   align-self: top;
 }
 .tn-event-detail__main-container {
-  order: 1;
+  order: 1!important;
   margin-bottom: 10px!important;
 }
 .tn-event-detail__additional-events-container {
