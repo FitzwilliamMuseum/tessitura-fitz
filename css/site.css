@@ -452,3 +452,6 @@ body {
   background-color: #fafafa;
   padding: 20px;
 }
+label {
+  font-size: 1rem;
+}
