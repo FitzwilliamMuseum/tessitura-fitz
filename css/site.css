@@ -415,8 +415,11 @@ body {
 .tn-prod-list-item__perf-property--action {
   text-align: left!important;
 }
-.btn-primary {
+.btn-primary, .btn-default {
   background-color: #731200!important;
   color: #fff;
   padding: 10px;
+}
+.tn-events-keyword-filter {
+  border: none!important;
 }
