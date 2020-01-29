@@ -409,3 +409,14 @@ body {
 .ribbon:after {
     right: 0
 }
+
+/** OVER RIDE FOR TNEW **/
+
+.tn-prod-list-item__perf-property--action {
+  text-align: left!important;
+}
+.btn-primary {
+  background-color: #731200!important;
+  color: #fff;
+  padding: 10px;
+}
