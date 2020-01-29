@@ -489,3 +489,6 @@ button#tn-subnav-promo-button {
 body, #tn-events-list-view {
   background-color: #dcd9d945!important;
 }
+.btn-primary:disabled {
+  color: #fff;
+}
