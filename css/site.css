@@ -448,7 +448,9 @@ body {
     position: relative;
     text-transform: uppercase;
 }
-.tn-events-detail-page {
+.tn-events-detail-page,
+.tn-production-season-detail-page-layout__main-container,
+.tn-production-season-detail-page-layout__main-container--with-image {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #fafafa;
