@@ -472,5 +472,7 @@ label {
 
 }
 button#tn-subnav-promo-button {
-  @.button-variant(@btn-wine); 
+  background-color: #731200!important;
+  color: #fff;
+  padding: 10px;
 }
