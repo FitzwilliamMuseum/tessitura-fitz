@@ -431,3 +431,17 @@ body {
 .tn-btn-datepicker__icon-container {
   color: #fff!important;
 }
+.tn-event-listing-mode-tab-nav__list {
+    transition-duration: .3s;
+    transition-property: background-color,color,opacity;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    color: rgba(0,0,0,.87);
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1;
+    min-height: 3rem;
+    opacity: .7;
+    padding: 1.0625rem .75rem;
+    position: relative;
+    text-transform: uppercase;
+}
