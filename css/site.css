@@ -421,7 +421,8 @@ body {
   padding: 10px;
 }
 .tn-events-keyword-filter, .tn-prod-list-item,
-.tn-events-detail-page {
+.tn-events-detail-page,
+.tn-production-season-detail-page-layout__main-container tn-production-season-detail-page-layout__main-container--with-image {
   border: none!important;
   box-shadow: 0 0 4px 0 rgba(0,0,0,.14),0 3px 4px 0 rgba(0,0,0,.12),0 1px 5px 0 rgba(0,0,0,.2)!important
 }
