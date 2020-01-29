@@ -471,3 +471,6 @@ label {
 .tn-additional-events__continue-shopping-link {
 
 }
+button#tn-subnav-promo-button {
+  @.button-variant(@btn-wine); 
+}
