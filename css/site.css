@@ -455,3 +455,10 @@ body {
 label {
   font-size: 1rem;
 }
+.tn-prod-season-header__title {
+  align-self: top;
+}
+.tn-event-detail__main-container {
+  order: 1;
+  margin-bottom: 10px;
+}
