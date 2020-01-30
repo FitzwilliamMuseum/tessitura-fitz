@@ -507,7 +507,12 @@ body, #tn-events-list-view {
     background-color: #000080!important;
     border-color: #285e8e!important; /*set the color you want here*/
 }
-.tn-btn-datepicker__btn:hover, .btn-wine:active:focus, .btn-wine:focus, .btn-wine:active, .btn-wine.active, .open>.dropdown-toggle.btn-wine {
+.tn-btn-datepicker__btn:hover, .tn-btn-datepicker__btn:active:focus, .tn-btn-datepicker__btn:focus, .tn-btn-datepicker__btn:active, .tn-btn-datepicker__btn.active, .open>.dropdown-toggle.tn-btn-datepicker__btn {
+    color: #fff!important;
+    background-color: #000080!important;
+    border-color: #285e8e!important; /*set the color you want here*/
+}
+.tn-events-keyword-filter__keyword-button:hover, .tn-events-keyword-filter__keyword-button:active:focus, .tn-events-keyword-filter__keyword-button:focus, .tn-events-keyword-filter__keyword-button:active, .tn-events-keyword-filter__keyword-button.active, .open>.dropdown-toggle.tn-events-keyword-filter__keyword-button {
     color: #fff!important;
     background-color: #000080!important;
     border-color: #285e8e!important; /*set the color you want here*/
