@@ -520,3 +520,6 @@ body, #tn-events-list-view {
 .tn-timer-urgent {
   font-weight: bolder;
 }
+section.tn-header-component h1 {
+  margin-bottom: 0.2em;
+}
