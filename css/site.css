@@ -491,7 +491,9 @@ body, #tn-events-list-view {
 }
 .btn-primary:disabled {
   color: #fff;
+  opacity: .5;
 }
 .btn:disabled, .tn-events-keyword-filter__keyword-check-icon {
   color: #fff;
+  opacity: .5;
 }
