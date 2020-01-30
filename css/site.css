@@ -507,6 +507,11 @@ body, #tn-events-list-view {
     background-color: #00b3db!important;
     border-color: #285e8e!important; /*set the color you want here*/
 }
+.tn-btn-datepicker__btn:hover, .btn-wine:active:focus, .btn-wine:focus, .btn-wine:active, .btn-wine.active, .open>.dropdown-toggle.btn-wine {
+    color: #fff!important;
+    background-color: #00b3db!important;
+    border-color: #285e8e!important; /*set the color you want here*/
+}
 .tn-timer-urgent {
   font-weight: bolder;
 }
