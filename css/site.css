@@ -499,3 +499,9 @@ body, #tn-events-list-view {
   color: #fff;
   opacity: .5;
 }
+
+.btn-wine:hover, .btn-wine:focus, .btn-wine:active, .btn-wine.active, .open>.dropdown-toggle.btn-wine {
+    color: #fff;
+    background-color: #00b3db;
+    border-color: #285e8e; /*set the color you want here*/
+}
