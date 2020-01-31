@@ -526,3 +526,34 @@ section.tn-header-component h1 {
 .tn-prod-season-header__title {
   align-self: top;
 }
+
+.tn-event-listing-busy-indicator {
+  top: 70px;
+}
+.tn-event-listing-busy-indicator__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+    padding: 30px;
+    opacity: 0.97;
+    padding: 30px;
+    color: #666;
+    width: 100%;
+    font-style: italic; }
+    .tn-event-listing-busy-indicator__content:after {
+      content: '';
+      width: 60px;
+      height: 60px;
+      margin-top: 30px;
+      display: block;
+      background-image: url("../images/busy-spinner.gif");
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-size: 100%;
+      opacity: 0.8;
+    }
