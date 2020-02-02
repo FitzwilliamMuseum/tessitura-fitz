@@ -528,8 +528,6 @@ nav.tn-subnav-component {
 .tn-event-listing-mode-tab-nav__list {
   text-transform: none!important;
   font-size: 1rem!important;
-}
-.tn-event-listing-mode-tab-nav__list {
   border: none!important;
 }
 section.tn-header-component h1 {
