@@ -520,6 +520,18 @@ body, #tn-events-list-view {
 .tn-timer-urgent {
   font-weight: bolder;
 }
+
+nav.tn-subnav-component {
+    margin-bottom: 20px;
+    margin-left: -5px;
+}
+.tn-event-listing-mode-tab-nav__list {
+  text-transform: none!important;
+  font-size: 1rem!important;
+}
+.tn-event-listing-mode-tab-nav__list {
+  border: none!important;
+}
 section.tn-header-component h1 {
   margin-bottom: 0.2em;
 }
