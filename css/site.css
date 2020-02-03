@@ -574,3 +574,8 @@ section.tn-header-component h1 {
   border: none!important;
   background-color: transparent!important;
 }
+@media (min-width: 768px)
+  .tn-prod-list-item__property--img-container {
+    grid-row: 1/span 3;
+  }
+}
