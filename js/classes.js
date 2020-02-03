@@ -8,4 +8,4 @@ $("a.btn.btn-info.btn-block.tn-register-button").addClass("btn-wine").addClass("
 $("#tn-subnav-promo-code").addClass("form-control");
 $("#tn-apply-promo").addClass("form-inline");
 $(".tn-event-detail__unavailable-text").addClass("btn-wine").addClass("btn-lg");
-$(".tn-prod-list-item__property--img-container").find('img').addClass("rounded-circle");
+$(".tn-prod-list-item__property").find('img').addClass("rounded-circle");
