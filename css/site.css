@@ -575,7 +575,10 @@ section.tn-header-component h1 {
   background-color: transparent!important;
 }
 @media (min-width: 768px)
-  .tn-prod-list-item__property--img-container {
+  .tn-prod-list-item__property--img-container{
     grid-row: 1/span 3;
   }
+}
+.tn-prod-season-header__title {
+  align-self: auto;
 }
