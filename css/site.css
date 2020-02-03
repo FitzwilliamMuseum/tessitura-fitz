@@ -577,3 +577,7 @@ section.tn-header-component h1 {
 .tn-prod-season-header__title {
   align-self: flex-start!important;
 }
+.tn-prod-list-item__property--heading {
+    grid-column: 1!important;
+    grid-column-end: -1!important;
+  }
