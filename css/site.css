@@ -455,9 +455,7 @@ body {
 label {
   font-size: 1rem;
 }
-.tn-prod-season-header__title {
-  align-self: top;
-}
+
 .tn-event-detail__main-container {
   order: 1!important;
   margin-bottom: 10px!important;
@@ -528,9 +526,6 @@ nav.tn-subnav-component {
 section.tn-header-component h1 {
   margin-bottom: 0.2em;
 }
-.tn-prod-season-header__title {
-  align-self: top;
-}
 
 .tn-event-listing-busy-indicator {
   top: 70px;
@@ -576,9 +571,9 @@ section.tn-header-component h1 {
 }
 @media (min-width: 768px)
   .tn-prod-list-item__property--img-container{
-    grid-row: 1/span 3;
+    grid-row: 1/span 3!important;
   }
 }
 .tn-prod-season-header__title {
-  align-self: auto;
+  align-self: auto!important;
 }
