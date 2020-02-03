@@ -9,3 +9,4 @@ $("#tn-subnav-promo-code").addClass("form-control");
 $("#tn-apply-promo").addClass("form-inline");
 $(".tn-event-detail__unavailable-text").addClass("btn-wine").addClass("btn-lg");
 $(".tn-prod-list-item__property").find('img').addClass("rounded-circle");
+$(".tn-prod-season-header__image").addClass("rounded-circle");
