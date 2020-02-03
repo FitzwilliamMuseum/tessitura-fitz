@@ -565,4 +565,8 @@ section.tn-header-component h1 {
 }
 .tn-event-listing-view__results-container {
   margin-bottom: 20px;
-}    
+}
+.tn-event-listing-mode-tab-nav__list-item, .tn-event-listing-mode-tab-nav__list-item {
+  border: none!important;
+  background-color: none!important;
+}
