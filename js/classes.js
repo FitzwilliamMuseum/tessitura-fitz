@@ -7,3 +7,4 @@ $(".tn-timer").addClass("btn-wine");
 $("a.btn.btn-info.btn-block.tn-register-button").addClass("btn-wine");
 $("#tn-subnav-promo-code").addClass("form-control");
 $("#tn-apply-promo").addClass("form-inline");
+$(".tn-event-detail__unavailable-text").addClass("btn-wine").addClass("btn-lg");
