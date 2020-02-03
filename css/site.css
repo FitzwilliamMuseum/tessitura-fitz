@@ -568,9 +568,9 @@ section.tn-header-component h1 {
 }
 .tn-event-listing-mode-tab-nav__list-item{
   border: none!important;
-  background-color: none!important;
+  background-color: transparent!important;
 }
 .tn-event-listing-mode-tab-nav__list-item.active {
   border: none!important;
-  background-color: none!important;
+  background-color: transparent!important;
 }
