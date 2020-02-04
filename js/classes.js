@@ -10,4 +10,4 @@ $('#tn-apply-promo').addClass('form-inline');
 $('.tn-event-detail__unavailable-text').addClass('btn-wine btn-lg');
 $('.tn-prod-season-header__image').addClass('rounded-circle');
 $('#tn-events-list-view > div.tn-event-listing-view__results-container > ul > li:nth-child(1) > div > a > img').find('img').addClass('rounded-circle');
-$("div.tn-prod-list-item__property").find('a').addAttr('class', "rounded-circle");
+$("div.tn-prod-list-item__property").find('a').attr('class', "rounded-circle");
