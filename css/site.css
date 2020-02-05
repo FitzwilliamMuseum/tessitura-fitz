@@ -430,7 +430,8 @@ body {
 .tn-event-listing-view__controls-container,
 .tn-account-create-page,
 .tn-package-listing-page,
-.tn-maintenance-page {
+.tn-maintenance-page,
+.tn-account-logout-page {
   border: none!important;
   box-shadow: 0 0 4px 0 rgba(0,0,0,.14),0 3px 4px 0 rgba(0,0,0,.12),0 1px 5px 0 rgba(0,0,0,.2)!important
 }
@@ -450,7 +451,8 @@ body {
 .tn-event-listing-view__controls-container,
 .tn-account-create-page,
 .tn-package-listing-page,
-.tn-maintenance-page {
+.tn-maintenance-page,
+.tn-account-logout-page {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #fafafa;
