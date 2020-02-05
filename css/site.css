@@ -605,7 +605,7 @@ section.tn-header-component h1 {
 }
 .tn-busy-spinner{
   display:block;
-  background-image:url(https://fitzwilliam.github.io/fitz-tessitura/images/layouts/spinner.svg)!important;
+  background-image:url(https://fitzwilliam.github.io/tessitura-fitz/images/layouts/spinner.svg)!important;
 }
 spinner {
   -webkit-animation: rotator 1.4s linear infinite;
