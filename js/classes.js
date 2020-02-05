@@ -1,5 +1,6 @@
 $('#tn-subnav-promo-button').addClass('btn-wine btn-lg');
 $('.tn-cart-buttons__secondary-action').addClass('btn-wine btn-lg');
+$('.tn-register-brief-button').addClass('btn-wine btn-lg');
 $('.tn-additional-events__continue-shopping-link').addClass('btn-wine btn-lg');
 $('.tn-additional-events__production-season-detail-link').addClass('btn-wine btn-lg');
 $('.tn-link').addClass('btn-wine btn-lg');
