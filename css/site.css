@@ -585,3 +585,9 @@ section.tn-header-component h1 {
     grid-column: 1!important;
     grid-column-end: -1!important;
   }
+  h2.tn-create-heading {
+      margin-top: 20px;
+  }
+  h2.tn-create-sub-heading {
+      margin-top: 20px;
+  }
