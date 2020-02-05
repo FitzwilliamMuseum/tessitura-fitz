@@ -591,3 +591,7 @@ section.tn-header-component h1 {
   h2.tn-create-sub-heading {
       margin-top: 20px;
   }
+.tn-account-info-link:before {
+  margin-left: 0em!important;
+  content: ""!important;
+}
