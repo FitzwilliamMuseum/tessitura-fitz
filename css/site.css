@@ -617,19 +617,17 @@ section.tn-header-component h1 {
 .tn-datepicker table th {
   border-top: 1px solid #e1e1e1;
   line-height: 1.428572;
-  padding-right: 1.75rem;
-  padding-left: 1.75rem;
   vertical-align: top;
 }
 
 .tn-datepicker table td:first-child,
 .tn-datepicker table th:first-child {
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
 }
 
 .tn-datepicker table td:last-child,
 .tn-datepicker table th:last-child {
-  padding-right: 1.5rem;
+  padding-right: 0.5rem;
 }
 
 .tn-datepicker table tbody {
@@ -668,4 +666,8 @@ section.tn-header-component h1 {
   height: 3.5rem;
   padding-top: 1.214285rem;
   padding-bottom: 1.214285rem;
+}
+
+tn-datepicker td.month, .tn-datepicker td.year {
+    margin-bottom: 10px;
 }
