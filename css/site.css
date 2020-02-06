@@ -558,7 +558,7 @@ section.tn-header-component h1 {
   height: 60px;
   margin-top: 30px;
   display: block;
-  background-image: url("https://fitzwilliammuseum.github.io/tessitura-fitz/images/layouts/spinner.gif")!important;
+  background-image: url("https://fitzwilliammuseum.github.io/tessitura-fitz/images/layouts/spinner.svg")!important;
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100%;
@@ -605,7 +605,7 @@ section.tn-header-component h1 {
 }
 .tn-busy-spinner {
 
-  background-image:url(https://fitzwilliammuseum.github.io/tessitura-fitz/images/layouts/spinner.gif)!important;
+  background-image:url(https://fitzwilliammuseum.github.io/tessitura-fitz/images/layouts/spinner.svg)!important;
 }
 spinner {
   -webkit-animation: rotator 1.4s linear infinite;
