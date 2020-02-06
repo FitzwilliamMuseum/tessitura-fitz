@@ -14,3 +14,4 @@ $('.col-xs-12').addClass('col-lg-12').removeClass('col-xs-12');
 $('.col-sm-6').removeClass('col-sm-6');
 $('.tn-logout-link').addClass('btn-wine btn-lg');
 $('.tn-account-info-link').addClass('btn-wine btn-lg');
+$('.calendar').addClass('table');
