@@ -603,8 +603,8 @@ section.tn-header-component h1 {
 .tn-datepicker {
 
 }
-.tn-busy-spinner{
-  display:block;
+.tn-busy-spinner {
+
   background-image:url(https://fitzwilliam.github.io/tessitura-fitz/images/layouts/spinner.svg)!important;
 }
 spinner {
