@@ -600,6 +600,9 @@ section.tn-header-component h1 {
 .tn-datepicker table {
   font-family: inherit!important;
 }
+.tn-datepicker {
+left: -5px!important;
+}
 
 .tn-busy-spinner {
 
