@@ -674,3 +674,8 @@ left: -5px!important;
 tn-datepicker td.month, .tn-datepicker td.year {
     margin-bottom: 10px;
 }
+.tn-datepicker td.day[aria-current=date] span {
+    color: #fff;
+    background-color: maroon;
+    border-color: maroon;
+}
