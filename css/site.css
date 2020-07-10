@@ -433,7 +433,6 @@ body {
 .tn-maintenance-page,
 .tn-account-logout-page {
   border: none!important;
-  box-shadow: 0 0 4px 0 rgba(0,0,0,.14),0 3px 4px 0 rgba(0,0,0,.12),0 1px 5px 0 rgba(0,0,0,.2)!important
 }
 .btn {
   text-transform: none;
@@ -544,7 +543,6 @@ section.tn-header-component h1 {
   padding: 30px;
   background-color: #FFF;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
   padding: 30px;
   opacity: 0.97;
   padding: 30px;
