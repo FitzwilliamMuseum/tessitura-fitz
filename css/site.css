@@ -416,7 +416,7 @@ body {
   text-align: left!important;
 }
 .btn-primary, .btn-default {
-  background-color: #731200!important;
+  background-color: #000!important;
   color: #fff;
   padding: 10px;
 }
