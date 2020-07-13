@@ -457,7 +457,7 @@ label {
   font-size: 1rem;
 }
 
-.tn-event-detail__main-container {
+/* .tn-event-detail__main-container {
   order: 1!important;
   margin-bottom: 10px!important;
   width: 70%;
@@ -466,7 +466,7 @@ label {
   order: 2!important;
   width: 30%!important;
   margin-right: 60px!important;
-}
+} */
 .tn-additional-events__continue-shopping-link {
 
 }
