@@ -697,10 +697,10 @@ p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
 }
 @media (min-width: 768px) {
   .tn-event-detail {
-    flex-wrap: wrap;
+    flex-wrap: wrap!important;
   }
   .tn-prod-season-header__image-wrapper {
-    width: 100%;
+    width: 100%!important;
   }
 }
 .tn-prod-season-header__title-and-image-container {
