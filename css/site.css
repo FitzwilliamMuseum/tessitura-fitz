@@ -12,7 +12,7 @@ html {
 }
 
 .head {
-  background-image: url('https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg');
+  /* background-image: url('https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -572,23 +572,23 @@ section.tn-header-component h1 {
   background-color: transparent!important;
 }
 @media (min-width: 768px)
-  .tn-prod-list-item__property--img-container {
-    grid-row: 1/span 3!important;
-  }
+.tn-prod-list-item__property--img-container {
+  grid-row: 1/span 3!important;
+}
 }
 .tn-prod-season-header__title {
   align-self: start!important;
 }
 .tn-prod-list-item__property--heading {
-    grid-column: 1!important;
-    grid-column-end: -1!important;
-  }
-  h2.tn-create-heading {
-      margin-top: 20px;
-  }
-  h2.tn-create-sub-heading {
-      margin-top: 20px;
-  }
+  grid-column: 1!important;
+  grid-column-end: -1!important;
+}
+h2.tn-create-heading {
+  margin-top: 20px;
+}
+h2.tn-create-sub-heading {
+  margin-top: 20px;
+}
 .tn-account-info-link:before {
   margin-left: 0em!important;
   content: ""!important;
@@ -597,7 +597,7 @@ section.tn-header-component h1 {
   font-family: inherit!important;
 }
 .tn-datepicker {
-left: -5px!important;
+  left: -5px!important;
 }
 
 .tn-busy-spinner {
@@ -659,12 +659,12 @@ left: -5px!important;
 }
 
 tn-datepicker td.month, .tn-datepicker td.year {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .tn-datepicker td.day[aria-current=date] span {
-    color: #fff;
-    background-color: maroon;
-    border-color: maroon;
+  color: #fff;
+  background-color: maroon;
+  border-color: maroon;
 }
 
 .btn-lg {
@@ -680,15 +680,15 @@ main.tn-events-listing-page, main.tn-contribution-group-page {
   font-style: normal!important;
 }
 .input-group {
-  width:70%!important;
+  width:100%!important;
 }
 p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 @media (min-width: 992px) {
   .tn-event-detail__additional-events-container {
-      width: 50%!important;
+    width: 50%!important;
   }
 }
 @media (min-width: 768px) {
@@ -704,4 +704,12 @@ p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
 }
 .tn-prod-season-header__title {
   margin-top: 10px!important;
+}
+.input-group-btn {
+  width: auto!important;
+}
+ul.venues li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
 }
