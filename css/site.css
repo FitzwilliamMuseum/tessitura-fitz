@@ -677,3 +677,11 @@ tn-datepicker td.month, .tn-datepicker td.year {
     background-color: maroon;
     border-color: maroon;
 }
+
+.btn-lg {
+  border-radius: 2px !important;
+}
+main.tn-events-listing-page {
+  background-color: #fff;
+  padding: 20px;
+}
