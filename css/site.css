@@ -15,6 +15,7 @@ html {
   /* background-image: url('https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 @media screen and (max-width: 400px) {
@@ -213,7 +214,6 @@ video {
 }
 
 #funders img {
-  height: 150px;
   margin-right: 10px;
   margin-bottom: 10px;
   display: inline-block;
