@@ -12,7 +12,7 @@ html {
 }
 
 .head {
-  background-image: url(../images/layouts/gallery3.jpg);
+  background-image: url('https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -603,9 +603,9 @@ left: -5px!important;
 }
 
 .tn-busy-spinner {
-
   background-image:url(https://fitzwilliammuseum.github.io/tessitura-fitz/images/layouts/spinner.svg)!important;
 }
+
 .tn-datepicker table {
   background-color: #ffffff;
   border: 0;
