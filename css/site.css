@@ -684,6 +684,7 @@ tn-datepicker td.month, .tn-datepicker td.year {
 main.tn-events-listing-page {
   background-color: #fff;
   padding: 20px;
+  margin-bottom: 20px;
 }
 .tn-events-calendar__event-status {
   text-transform: none !important;
