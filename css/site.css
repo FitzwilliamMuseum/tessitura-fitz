@@ -614,15 +614,6 @@ left: -5px!important;
   vertical-align: top;
 }
 
-.tn-datepicker table td:first-child,
-.tn-datepicker table th:first-child {
-  padding-left: 0.5rem;
-}
-
-.tn-datepicker table td:last-child,
-.tn-datepicker table th:last-child {
-  padding-right: 0.5rem;
-}
 
 .tn-datepicker table tbody {
   color: rgba(0, 0, 0, 0.87);
