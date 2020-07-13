@@ -576,7 +576,7 @@ section.tn-header-component h1 {
   }
 }
 .tn-prod-season-header__title {
-  align-self: top!important;
+  align-self: start!important;
 }
 .tn-prod-list-item__property--heading {
     grid-column: 1!important;
