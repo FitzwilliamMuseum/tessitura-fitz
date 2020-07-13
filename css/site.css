@@ -713,3 +713,7 @@ ul.venues li {
   list-style: none;
   padding: 10px;
 }
+.tn-subnav-component .tn-promo-box input {
+  background-color: white!important;
+  width: 10em;
+}
