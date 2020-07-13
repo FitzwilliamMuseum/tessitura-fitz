@@ -46,7 +46,7 @@ html {
 }
 
 footer, .chip-icon {
-  background-color: #731200;
+  background-color: #000000;
 }
 
 .bg-black {
@@ -220,13 +220,13 @@ video {
 }
 
 .badge-wine {
-  background-color: #731200;
+  background-color: #000000;
   color: #fff;
   padding: 10px;
 }
 
 .btn-wine {
-  background-color: #731200;
+  background-color: #000000;
   color: #fff;
   padding: 10px;
 }
@@ -245,7 +245,7 @@ video {
 }
 
 .contact .btn {
-  background-color: #731200;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -475,7 +475,7 @@ label {
 
 }
 button#tn-subnav-promo-button {
-  background-color: #731200!important;
+  background-color: #000000!important;
   color: #fff;
   padding: 10px;
 }
