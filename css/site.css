@@ -686,3 +686,12 @@ main.tn-events-listing-page, main.tn-contribution-group-page {
 .input-group {
   width:70%!important;
 }
+p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .tn-event-detail__additional-events-container {
+      width: 50%!important;
+  }
+}
