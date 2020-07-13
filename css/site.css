@@ -699,4 +699,13 @@ p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
   .tn-event-detail {
     flex-wrap: wrap;
   }
+  .tn-prod-season-header__image-wrapper {
+    width: 100%;
+  }
+}
+.tn-prod-season-header__title-and-image-container {
+  display: block!important;
+}
+.tn-prod-season-header__title {
+  margin-top: 10px!important;
 }
