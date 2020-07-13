@@ -677,7 +677,7 @@ tn-datepicker td.month, .tn-datepicker td.year {
 .btn-lg {
   border-radius: 2px !important;
 }
-main.tn-events-listing-page {
+main.tn-events-listing-page, main.tn-contribution-group-page {
   background-color: #fff;
   padding: 20px;
   margin-bottom: 20px;
