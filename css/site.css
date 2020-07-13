@@ -632,9 +632,7 @@ left: -5px!important;
 .tn-datepicker table tbody th {
   font-size: 0.8125rem;
   font-weight: 400;
-  height: 3rem;
-  padding-top: 0.919643rem;
-  padding-bottom: 0.919643rem;
+  height: 2rem;
 }
 
 .tn-datepicker table tfoot {
@@ -649,7 +647,9 @@ left: -5px!important;
   padding-top: 1.214285rem;
   padding-bottom: 1.214285rem;
 }
-
+.btn {
+  min-width:0rem!important;
+}
 .tn-datepicker table thead {
   color: rgba(0, 0, 0, 0.54);
 }
