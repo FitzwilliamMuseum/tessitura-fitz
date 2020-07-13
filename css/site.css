@@ -31,13 +31,11 @@ html {
   }
   .shout {
     color: white!important;
-    font-family: 'Yrsa', serif;
     font-size: 4rem!important;
     margin-top:2rem;
   }
   .shout-less {
     color: white!important;
-    font-family: 'Yrsa', serif;
     font-size: 2rem!important;
   }
   /* .jumbotron {
@@ -55,7 +53,7 @@ footer, .chip-icon {
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -321,13 +319,11 @@ body {
 @media screen and (min-width: 400px) {
   .shout {
     color: white!important;
-    font-family: 'Yrsa', serif;
     font-size: 8rem!important;
     margin-top: 2rem;
   }
   .shout-less {
     color: white!important;
-    font-family: 'Yrsa', serif;
     font-size: 4rem;
   }
 }
