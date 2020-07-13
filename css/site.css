@@ -685,3 +685,7 @@ main.tn-events-listing-page {
   background-color: #fff;
   padding: 20px;
 }
+.tn-events-calendar__event-status {
+  text-transform: none !important;
+  font-style: normal!important;
+}
