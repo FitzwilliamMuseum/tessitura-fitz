@@ -715,5 +715,8 @@ ul.venues li {
 }
 .tn-subnav-component .tn-promo-box input {
   background-color: white!important;
-  width: 10em;
+}
+span.tn-radio-button-list__button.btn.btn-default:hover {
+    color: white!important;
+    background-color: grey!important;
 }
