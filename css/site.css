@@ -457,16 +457,17 @@ label {
   font-size: 1rem;
 }
 
-/* .tn-event-detail__main-container {
+.tn-event-detail__main-container {
   order: 1!important;
   margin-bottom: 10px!important;
-  width: 70%;
+  width: 100%;
 }
 .tn-event-detail__additional-events-container {
   order: 2!important;
-  width: 30%!important;
+  width: 100%!important;
   margin-right: 60px!important;
-} */
+  margin-bottom: 20px!important;
+}
 .tn-additional-events__continue-shopping-link {
 
 }
@@ -575,7 +576,7 @@ section.tn-header-component h1 {
   }
 }
 .tn-prod-season-header__title {
-  align-self: flex-start!important;
+  align-self: top!important;
 }
 .tn-prod-list-item__property--heading {
     grid-column: 1!important;
