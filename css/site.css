@@ -695,3 +695,8 @@ p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
       width: 50%!important;
   }
 }
+@media (min-width: 768px) {
+  .tn-event-detail {
+    flex-wrap: wrap;
+  }
+}
