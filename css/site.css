@@ -458,13 +458,9 @@ label {
 }
 
 .tn-event-detail__main-container {
-  order: 1!important;
   margin-bottom: 10px!important;
-  width: 100%;
 }
 .tn-event-detail__additional-events-container {
-  order: 2!important;
-  width: 100%!important;
   margin-right: 60px!important;
   margin-bottom: 20px!important;
 }
@@ -686,4 +682,7 @@ main.tn-events-listing-page, main.tn-contribution-group-page {
 .tn-events-calendar__event-status {
   text-transform: none !important;
   font-style: normal!important;
+}
+.input-group {
+  width:70%!important;
 }
