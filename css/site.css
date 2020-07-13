@@ -212,6 +212,12 @@ video {
   display: inline-block;
 }
 
+#funders img {
+  height: 150px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
 .carousel-item img {
   min-width: auto;
   max-height:auto;
