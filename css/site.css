@@ -489,11 +489,7 @@ body, #tn-events-list-view {
   background-color: #000080!important;
   border-color: #285e8e!important; /*set the color you want here*/
 }
-.tn-btn-datepicker__btn:hover, .tn-btn-datepicker__btn:active:focus, .tn-btn-datepicker__btn:focus, .tn-btn-datepicker__btn:active, .tn-btn-datepicker__btn.active, .open>.dropdown-toggle.tn-btn-datepicker__btn {
-  color: #fff!important;
-  background-color: #000080!important;
-  border-color: #285e8e!important; /*set the color you want here*/
-}
+
 .tn-events-keyword-filter__keyword-button:hover, .tn-events-keyword-filter__keyword-button:active:focus, .tn-events-keyword-filter__keyword-button:focus, .tn-events-keyword-filter__keyword-button:active, .tn-events-keyword-filter__keyword-button.active, .open>.dropdown-toggle.tn-events-keyword-filter__keyword-button {
   color: #fff!important;
   background-color: #000080!important;
@@ -591,85 +587,15 @@ section.tn-header-component h1 {
 .tn-datepicker table {
   font-family: inherit!important;
 }
-.tn-datepicker {
-left: -5px!important;
-}
+
 
 .tn-busy-spinner {
   background-image:url(https://fitzwilliammuseum.github.io/tessitura-fitz/images/layouts/spinner.svg)!important;
 }
 
-.tn-datepicker table {
-  background-color: #ffffff;
-  border: 0;
-  margin-bottom: 1rem;
-  max-width: 100%;
-  width: 100%;
-}
 
-.tn-datepicker table td,
-.tn-datepicker table th {
-  border-top: 1px solid #e1e1e1;
-  line-height: 1.428572;
-  vertical-align: top;
-}
 
-.tn-datepicker table td:first-child,
-.tn-datepicker table th:first-child {
-  padding-left: 0.5rem;
-}
 
-.tn-datepicker table td:last-child,
-.tn-datepicker table th:last-child {
-  padding-right: 0.5rem;
-}
-
-.tn-datepicker table tbody {
-  color: rgba(0, 0, 0, 0.87);
-}
-
-.tn-datepicker table tbody td,
-.tn-datepicker table tbody th {
-  font-size: 0.8125rem;
-  font-weight: 400;
-  height: 3rem;
-  padding-top: 0.919643rem;
-  padding-bottom: 0.919643rem;
-}
-
-.tn-datepicker table tfoot {
-  color: rgba(0, 0, 0, 0.54);
-}
-
-.tn-datepicker table tfoot td,
-.tn-datepicker table tfoot th {
-  font-size: 0.75rem;
-  font-weight: 400;
-  height: 3.5rem;
-  padding-top: 1.214285rem;
-  padding-bottom: 1.214285rem;
-}
-
-.tn-datepicker table thead {
-  color: rgba(0, 0, 0, 0.54);
-}
-.tn-datepicker table thead td,
-.tn-datepicker table thead th {
-  font-size: 0.75rem;
-  font-weight: 500;
-  height: 3.5rem;
-  padding-top: 1.214285rem;
-  padding-bottom: 1.214285rem;
-}
-
-tn-datepicker td.month, .tn-datepicker td.year {
-    margin-bottom: 10px;
-}
-.tn-datepicker td.day[aria-current=date] span {
-    color: #fff;
-    background-color: maroon;
-    border-color: maroon;
-}
 
 .btn-lg {
   border-radius: 2px !important;
