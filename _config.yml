@@ -18,7 +18,7 @@ email: ticketing@fitzmuseum.cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   The Fitzwilliam Museum's ticketing and Membership management portal.
 baseurl: "/tessitura-fitz" # the subpath of your site, e.g. /blog
-url: "https://fitzwilliammuseum.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tickets.museums.cam.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: FitzMuseum_UK
 github_username:  fitzwilliammuseum
 github_repo: tessitura-fitz
