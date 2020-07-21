@@ -723,3 +723,7 @@ span.tn-radio-button-list__button.btn.btn-default:hover {
 .tn-prod-list-item {
   background-color: white!important;
 }
+.checkbox label {
+  color: black;
+  margin-left: 20px;
+}
