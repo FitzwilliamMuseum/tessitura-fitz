@@ -54,7 +54,7 @@ footer, .chip-icon {
 
 
 body {
-  font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
 }
 
 a {
@@ -728,7 +728,7 @@ span.tn-radio-button-list__button.btn.btn-default:hover {
   margin-left: 20px;
 }
 .tn-event-detail__display-time, .tn-event-detail__location {
-    font-size: 1.6em;
+    font-size: 1.6em !important;
   }
 
 input#tn-subnav-promo-code {
