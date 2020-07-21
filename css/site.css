@@ -54,7 +54,7 @@ footer, .chip-icon {
 
 
 body {
-font-family: 'Questrial', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 a {
@@ -727,8 +727,8 @@ p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
   background-color: white!important;
 }
 span.tn-radio-button-list__button.btn.btn-default:hover {
-    color: white!important;
-    background-color: grey!important;
+  color: white!important;
+  background-color: grey!important;
 }
 .tn-prod-list-item {
   background-color: white!important;
@@ -738,10 +738,10 @@ span.tn-radio-button-list__button.btn.btn-default:hover {
   margin-left: 20px;
 }
 .tn-event-detail__display-time, .tn-event-detail__location {
-    font-size: 1.6em !important;
-  }
+  font-size: 1.6em !important;
+}
 
 input#tn-subnav-promo-code {
-    height: 44px;
-    width: 170px;
+  height: 44px;
+  width: 170px;
 }
