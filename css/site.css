@@ -434,7 +434,8 @@ body {
 .tn-package-listing-page,
 .tn-maintenance-page,
 .tn-account-logout-page,
-.tn-payment-page {
+.tn-payment-page,
+.tn-receipt-page {
   border: none!important;
 }
 .btn {
@@ -454,7 +455,8 @@ body {
 .tn-package-listing-page,
 .tn-maintenance-page,
 .tn-account-logout-page,
-.tn-payment-page  {
+.tn-payment-page,
+.tn-receipt-page  {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
