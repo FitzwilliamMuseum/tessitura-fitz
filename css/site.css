@@ -708,10 +708,20 @@ p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
 .input-group-btn {
   width: auto!important;
 }
-ul.venues li {
-  display: inline;
-  list-style: none;
-  padding: 10px;
+
+@media (min-width:480px)  {
+  ul.venues li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+  }
+}
+@media (max-width:480px)  {
+  ul.venues li {
+    display: block;
+    list-style: none;
+    padding: 10px;
+  }
 }
 .tn-subnav-component .tn-promo-box input {
   background-color: white!important;
