@@ -15,3 +15,7 @@ $('.tn-logout-link').addClass('btn-dark btn-lg');
 $('.tn-account-info-link').addClass('btn-dark btn-lg');
 $('.calendar').addClass('table');
 $('.tn-add-donation-button').addClass('btn-dark btn-lg');
+$('.col-sm-pull-4').removeClass('col-sm-pull-4');
+$('.col-lg-pull-3').removeClass('col-lg-pull-3');
+$('.col-lg-push-9').removeClass('col-lg-push-9');
+$('.col-sm-push-8').removeClass('col-sm-push-8');
