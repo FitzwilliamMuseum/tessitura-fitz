@@ -14,3 +14,4 @@ $('.col-sm-6').removeClass('col-sm-6');
 $('.tn-logout-link').addClass('btn-dark btn-lg');
 $('.tn-account-info-link').addClass('btn-dark btn-lg');
 $('.calendar').addClass('table');
+('.tn-add-donation-button').addClass('btn-dark btn-lg');
