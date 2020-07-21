@@ -433,7 +433,8 @@ body {
 .tn-account-create-page,
 .tn-package-listing-page,
 .tn-maintenance-page,
-.tn-account-logout-page {
+.tn-account-logout-page,
+.tn-payment-page {
   border: none!important;
 }
 .btn {
@@ -452,7 +453,8 @@ body {
 .tn-account-create-page,
 .tn-package-listing-page,
 .tn-maintenance-page,
-.tn-account-logout-page {
+.tn-account-logout-page,
+.tn-payment-page  {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
