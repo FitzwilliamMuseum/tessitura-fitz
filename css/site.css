@@ -727,3 +727,12 @@ span.tn-radio-button-list__button.btn.btn-default:hover {
   color: black;
   margin-left: 20px;
 }
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
