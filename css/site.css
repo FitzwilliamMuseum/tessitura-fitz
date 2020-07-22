@@ -718,6 +718,7 @@ p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
     display: inline;
     list-style: none;
     padding: 10px;
+    text-align: center;
   }
 }
 @media (max-width:480px)  {
