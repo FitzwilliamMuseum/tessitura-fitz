@@ -22,3 +22,4 @@ $('.col-lg-push-9').removeClass('col-lg-push-9');
 $('.col-sm-push-8').removeClass('col-sm-push-8');
 $('.col-sm-pull-2').removeClass('col-sm-pull-2');
 $('.col-sm-push-10').removeClass('col-sm-push-10');
+$('.tn-detail-production-text-toggle-link').addClass('btn-dark').removeClass('btn-default');
