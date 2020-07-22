@@ -756,7 +756,7 @@ input#tn-subnav-promo-code {
 .tn-prod-season-header {
   border-bottom: 0px !important;
 }
-.tn-event-detail__additional-events__container {
+.tn-event-detail__additional-events-container {
   background-color: white!important;
 }
 .tn-additional-events__controls-container {
@@ -765,4 +765,7 @@ input#tn-subnav-promo-code {
 .tn-ticket-selector__pricetype-placeholder {
   color: black!important;
   font-style: normal;
+}
+.tn-component__fieldset-additional-text {
+  font-size:100% !important;
 }
