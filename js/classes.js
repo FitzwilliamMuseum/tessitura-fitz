@@ -28,3 +28,4 @@ $('.tn-event-detail').addClass('container');
 $('.tn-event-detail__additional-events-container').addClass('col');
 $('.tn-event-detail__main-container').addClass('col');
 $('.tn-component-contact-permissions__settings__item').addClass('card');
+$('.tn-register-button').removeClass('btn-info');
