@@ -435,7 +435,8 @@ body {
 .tn-maintenance-page,
 .tn-account-logout-page,
 .tn-payment-page,
-.tn-receipt-page {
+.tn-receipt-page,
+.tn-account-update-password-page {
   border: none!important;
 }
 .btn {
@@ -456,7 +457,8 @@ body {
 .tn-maintenance-page,
 .tn-account-logout-page,
 .tn-payment-page,
-.tn-receipt-page  {
+.tn-receipt-page,
+.tn-account-update-password-page  {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
@@ -784,4 +786,8 @@ input#tn-subnav-promo-code {
 
 a.tn-account-info-link.btn-dark.btn-lg {
     margin-right: 10px!important;
+}
+.tn-subnav-component .tn-login-link.tn-logged-in .tn-logout-link:before {
+    margin-left: 0!important;
+    content: ""!important;
 }
