@@ -437,7 +437,8 @@ body {
 .tn-payment-page,
 .tn-receipt-page,
 .tn-account-update-password-page,
-.tn-upcoming-events-page {
+.tn-upcoming-events-page,
+.tn-account-update-page {
   border: none!important;
 }
 .btn {
@@ -460,7 +461,8 @@ body {
 .tn-payment-page,
 .tn-receipt-page,
 .tn-account-update-password-page,
-.tn-upcoming-events-page  {
+.tn-upcoming-events-page,
+.tn-account-update-page  {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
