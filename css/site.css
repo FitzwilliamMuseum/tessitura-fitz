@@ -764,7 +764,7 @@ input#tn-subnav-promo-code {
 }
 .tn-ticket-selector__pricetype-placeholder {
   color: black!important;
-  font-style: normal;
+  font-style: normal!important;
 }
 .tn-component__fieldset-additional-text {
   font-size:100% !important;
