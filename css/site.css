@@ -756,3 +756,13 @@ input#tn-subnav-promo-code {
 .tn-prod-season-header {
   border-bottom: 0px !important;
 }
+.tn-event-detail__additional-events__container {
+  background-color: white!important;
+}
+.tn-additional-events__controls-container {
+  border-bottom: 0px !important;
+}
+.tn-ticket-selector__pricetype-placeholder {
+  color: black!important;
+  font-style: normal;
+}
