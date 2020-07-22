@@ -30,3 +30,5 @@ $('.tn-event-detail__main-container').addClass('col');
 $('.tn-component-contact-permissions__settings__item').addClass('card').addClass('col');
 $('.tn-register-button').removeClass('btn-info');
 $('.tn-component-contact-permissions__settings').addClass('row');
+$('#dismiss_contact_permissions').addClass('btn-dark').addClass('btn-lg');
+$('#save_contact_permissions').addClass('btn-dark').addClass('btn-lg');

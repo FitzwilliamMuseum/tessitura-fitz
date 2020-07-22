@@ -796,3 +796,8 @@ li.tn-cart-item-summary__property.tn-cart-item-summary__property--secondary.tn-c
 li.tn-cart-item-summary__property.tn-cart-item-summary__property--secondary.tn-cart-item-summary__property--location {
     font-weight: bold;
 }
+
+.tn-component-contact-permissions__footer-actions {
+    margin-top: 10px;
+    margin-right: 15px;
+}
