@@ -750,3 +750,6 @@ input#tn-subnav-promo-code {
   height: 44px;
   width: 170px;
 }
+.tn-prod-season-header__description-container {
+  background-color: white!important;
+}
