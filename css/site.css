@@ -791,3 +791,8 @@ a.tn-account-info-link.btn-dark.btn-lg {
     margin-left: 0!important;
     content: ""!important;
 }
+
+li.tn-cart-item-summary__property.tn-cart-item-summary__property--secondary.tn-cart-item-summary__property--date-time,
+li.tn-cart-item-summary__property.tn-cart-item-summary__property--secondary.tn-cart-item-summary__property--location {
+    font-weight: bold;
+}
