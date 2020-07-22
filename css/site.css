@@ -815,3 +815,6 @@ h2,h3,h4 {
   margin-top: 15px!important;
   margin-bottom: 15px!important;
 }
+.tn-cart-totals__value.tn-cart-totals__value--total {
+    margin-top: 15px!important;
+}
