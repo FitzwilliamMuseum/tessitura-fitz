@@ -775,3 +775,9 @@ input#tn-subnav-promo-code {
   margin-left:10px;
   margin-right:10px;
 }
+
+}
+.tn-component-contact-permissions__settings__item__header {
+  border-bottom: 1px solid black;
+  font-weight: bold!important;
+}
