@@ -438,7 +438,10 @@ body {
 .tn-receipt-page,
 .tn-account-update-password-page,
 .tn-upcoming-events-page,
-.tn-account-update-page {
+.tn-account-update-page,
+.tn-giving-history-page,
+.tn-account-interests-page,
+.tn-account-memberships-page {
   border: none!important;
 }
 .btn {
@@ -462,7 +465,10 @@ body {
 .tn-receipt-page,
 .tn-account-update-password-page,
 .tn-upcoming-events-page,
-.tn-account-update-page  {
+.tn-account-update-page,
+.tn-giving-history-page,
+.tn-account-interests-page,
+.tn-account-memberships-page  {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
