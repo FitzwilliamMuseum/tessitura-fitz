@@ -24,3 +24,6 @@ $('.col-sm-pull-2').removeClass('col-sm-pull-2');
 $('.col-sm-push-10').removeClass('col-sm-push-10');
 $('.tn-detail-production-text-toggle-link').addClass('btn-dark').removeClass('btn-default');
 $('.tn-prod-season-header').addClass('container');
+$('.tn-event-detail').addClass('container');
+$('.tn-event-detail__additional-events-container').addClass('col');
+$('.tn-event-detail__main-container').addClass('col');
