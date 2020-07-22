@@ -13,6 +13,7 @@ $('.col-xs-12').addClass('col-lg-12').removeClass('col-xs-12');
 $('.col-sm-6').removeClass('col-sm-6');
 $('.tn-logout-link').addClass('btn-dark btn-lg');
 $('.tn-account-info-link').addClass('btn-dark btn-lg');
+$('.tn-prod-season-header__image-wrapper').addClass('col-md-6');
 $('.calendar').addClass('table');
 $('.tn-add-donation-button').addClass('btn-dark btn-lg');
 $('.col-sm-pull-4').removeClass('col-sm-pull-4');
