@@ -781,3 +781,7 @@ input#tn-subnav-promo-code {
   border-bottom: 1px solid black;
   font-weight: bold!important;
 }
+
+a.tn-account-info-link.btn-dark.btn-lg {
+    margin-right: 10px!important;
+}
