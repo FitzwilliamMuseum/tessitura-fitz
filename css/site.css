@@ -771,3 +771,7 @@ input#tn-subnav-promo-code {
 .tn-component-contact-permissions__settings__item {
   border: 0px!important;
 }
+.tn-component-contact-permissions__settings.row {
+  margin-left:10px;
+  margin-right:10px;
+}
