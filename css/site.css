@@ -823,3 +823,13 @@ h2,h3,h4 {
   color: black!important;
   font-style: normal!important;
 }
+
+input-group-addon.input-lg, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.input-group-addon.btn {
+  padding: 8px 16px !important;
+}
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon, .input-group-lg>.input-group-btn>.btn, .input-lg {
+  height: 34px!important;
+}
+label.control-label.tn-group-select-list-label {
+  color: black!important;
+}
