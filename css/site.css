@@ -743,6 +743,7 @@ p.tn-event-detail__unavailable-text.btn-dark.btn-lg {
     display: block;
     list-style: none;
     padding: 10px;
+    text-align: center!important;
   }
 }
 .tn-subnav-component .tn-promo-box input {
