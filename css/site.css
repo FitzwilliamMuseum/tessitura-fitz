@@ -851,3 +851,8 @@ aside.tn-admin-preview-banner.alert.alert-warning {
   margin-top: 50px;
   margin-bottom: -47px;
 }
+
+.tn-subnav-component .tn-promo-box.tn-promo-applied:before {
+    margin-right: 0em!important;
+    content: ""!important;
+}
