@@ -69,7 +69,10 @@ var klaroConfig = {
                 description: 'Functionality for ticket booking',
             },
             bugherd: {
-                description: 'Bug tracking ',
+                description: 'Bug tracking',
+            },
+            queueit: {
+                description: 'Queue management and load bearing',
             },
             purposes: {
                 analytics: 'Analytics',
