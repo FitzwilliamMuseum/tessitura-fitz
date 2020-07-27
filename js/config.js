@@ -170,6 +170,17 @@ var klaroConfig = {
             },
         },
         {
+            name : 'queueit',
+            title : 'Queue-It',
+            default: true,
+            purposes : ['functionality', 'security'],
+            cookies : [/^Queue/i],
+            callback : function(consent, app){
+                // This is an example callback function.
+                console.log("User consent for app "+app.name+": consent="+consent)
+            },
+        },
+        {
             name : 'bugherd',
             title : 'Bugherd',
             default: true,
