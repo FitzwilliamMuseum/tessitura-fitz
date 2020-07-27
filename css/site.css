@@ -15,7 +15,7 @@ html {
   /* background-image: url('https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 
 @media screen and (max-width: 400px) {
@@ -23,6 +23,11 @@ html {
     padding-top: 100px;
     /* display: none; */
     /* visibility: hidden; */
+  }
+  .parallax {
+    min-height: 100px;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .hide {
     padding-top:5rem;
