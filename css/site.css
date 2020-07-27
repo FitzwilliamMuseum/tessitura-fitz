@@ -856,3 +856,6 @@ aside.tn-admin-preview-banner.alert.alert-warning {
     margin-right: 0em!important;
     content: ""!important;
 }
+.tn-subnav-component .tn-promo-box {
+    background: white!important;
+}
