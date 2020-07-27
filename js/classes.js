@@ -32,4 +32,4 @@ $('.tn-register-button').removeClass('btn-info');
 $('.tn-component-contact-permissions__settings').addClass('row');
 $('#dismiss_contact_permissions').addClass('btn-dark').addClass('btn-lg');
 $('#save_contact_permissions').addClass('btn-dark').addClass('btn-lg');
-('tn-detail-production-text-toggle-link').remove();
+$('#tn-detail-production-text-toggle-link').remove();
