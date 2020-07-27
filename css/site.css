@@ -170,11 +170,9 @@ video {
     right: 20px;
     bottom: 20px;
   }
-  .ucm-hide {
-    display: none;
-  }
+
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .ucm-hide {
     display: none;
   }
