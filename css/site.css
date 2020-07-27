@@ -859,3 +859,6 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 .tn-subnav-component .tn-promo-box {
     background: white!important;
 }
+.tn-additional-events__instructions {
+  background-color: white!important;
+}
