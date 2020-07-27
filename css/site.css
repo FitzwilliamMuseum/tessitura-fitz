@@ -847,3 +847,7 @@ button.btn.btn-default.btn-lg.tn-btn-datepicker__btn {
 h1#tn-page-heading {
     font-size: 2.2rem!important;
 }
+aside.tn-admin-preview-banner.alert.alert-warning {
+  margin-top: 50px;
+  margin-bottom: -47px;
+}
