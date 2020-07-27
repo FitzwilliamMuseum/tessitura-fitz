@@ -492,9 +492,7 @@ label {
   margin-right: 60px!important;
   margin-bottom: 20px!important;
 }
-.tn-additional-events__continue-shopping-link {
 
-}
 button#tn-subnav-promo-button {
   background-color: #000000!important;
   color: #fff;
@@ -866,4 +864,7 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 }
 .tn-additional-events__instructions {
   background-color: white!important;
+}
+.tn-additional-events__continue-shopping-link {
+    white-space: nowrap;
 }
