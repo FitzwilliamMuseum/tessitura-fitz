@@ -68,13 +68,16 @@ var klaroConfig = {
             tessitura: {
                 description: 'Functionality for ticket booking',
             },
+            bugherd: {
+                description: 'Bug tracking ',
+            },
             purposes: {
                 analytics: 'Analytics',
                 security: 'Security',
                 livechat: 'Livechat',
                 advertising: 'Advertising',
                 styling: 'Styling',
-                functionality: 'functionality',
+                functionality: 'Functionality',
             }
         },
     },
@@ -128,18 +131,53 @@ var klaroConfig = {
         {
             name : 'bootstrap',
             title : 'Bootstrap CDN',
-            purposes : ['styling']
+            default: true,
+            purposes : ['styling'],
+            callback : function(consent, app){
+                // This is an example callback function.
+                console.log("User consent for app "+app.name+": consent="+consent)
+            },
         },
 
         {
             name : 'googleFonts',
             title : 'Google Fonts',
-            purposes : ['styling']
+            default: true,
+            purposes : ['styling'],
+            callback : function(consent, app){
+                // This is an example callback function.
+                console.log("User consent for app "+app.name+": consent="+consent)
+            },
         },
         {
             name : 'tessitura',
             title : 'Tessitura',
-            purposes : ['functionality'],
-        }
+            default: true,
+            purposes : ['functionality', 'security'],
+            callback : function(consent, app){
+                // This is an example callback function.
+                console.log("User consent for app "+app.name+": consent="+consent)
+            },
+        },
+        {
+            name : 'cloudflare',
+            title : 'Cloudflare',
+            default: true,
+            purposes : ['functionality', 'security'],
+            callback : function(consent, app){
+                // This is an example callback function.
+                console.log("User consent for app "+app.name+": consent="+consent)
+            },
+        },
+        {
+            name : 'bugherd',
+            title : 'Bugherd',
+            default: true,
+            purposes : ['analytics'],
+            callback : function(consent, app){
+                // This is an example callback function.
+                console.log("User consent for app "+app.name+": consent="+consent)
+            },
+        },
     ],
 }
