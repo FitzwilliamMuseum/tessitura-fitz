@@ -874,3 +874,7 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 .tn-additional-events__continue-shopping-link {
     white-space: nowrap;
 }
+.modal-footer .btn-primary, .modal-footer .btn-primary:active, .modal-footer .btn-primary:focus, .modal-footer .btn-primary:hover
+{
+  color: white!important;
+}
