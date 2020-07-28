@@ -27,7 +27,8 @@ markdown: kramdown
 theme: minima
 content_license: CC-BY-NC
 rights: GPLV3
-
+google_tag: "GTM-KN5RKDK"
+google_analytics: "UA-3319190-18"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
