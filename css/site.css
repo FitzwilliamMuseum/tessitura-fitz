@@ -887,3 +887,7 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 section.tn-header-component h1.tn-heading {
     display: none;
 }
+.bg-danger {
+  background-color: black!important;
+  colour: white!important;
+}
