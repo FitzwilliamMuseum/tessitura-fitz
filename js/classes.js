@@ -35,3 +35,4 @@ $('#save_contact_permissions').addClass('btn-dark').addClass('btn-lg');
 $('.tn-detail-production-text-toggle-link').remove();
 $('a.btn.btn-default').removeClass('btn-default').addClass('btn-dark');
 $('a.btn.btn-primary').removeClass('btn-primary').addClass('btn-dark');
+$('.tn-add-donation-button').addClass('btn-dark');
