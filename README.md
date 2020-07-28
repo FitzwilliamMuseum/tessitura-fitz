@@ -1,14 +1,20 @@
 # Fitzwilliam Museum Tessitura template
 
-This repository will hold code for the template used by our installation of the
-Tessitura system. This is built using Jekyll.
+This repository holds code for the template used by our installation of the
+Tessitura system. This is built using Jekyll and is a very simple system.
+
+TNEW pulls this HTML code into their engine and injects the container and scripts needed for it to run and deliver ticketing and membership functions.
+
+The CSS overrides many of the default options that come out of the box from Tessitura. The /js/classes.js file holds various jquery overrides for addding and removing classes and functions.  Generally this has followed the KISS principle.
+
+![A screenshot of the TNEW instance](/images/screenshots/tnew-screenshot.png)
 
 ## To run locally
 
 * Install Jekyll on your machine following these [instructions](https://jekyllrb.com/docs/installation/)
 * Install Git on your machine following these [instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * Clone the code for this repository:
-   `git clone https://github.com/FitzwilliamMuseum/feast-and-fast.git beyond-the-label`
+   `git clone https://github.com/FitzwilliamMuseum/tessitura-fitz tessitura-fitz`
 * Change to the directory and then run this command in terminal `bundle exec jekyll serve`
 
 ## Credits
