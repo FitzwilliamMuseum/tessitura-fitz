@@ -884,3 +884,6 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 .modal-dialog {
     margin: 20vh auto 0px auto
 }
+section.tn-header-component h1.tn-heading {
+    display: none;
+}
