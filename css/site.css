@@ -452,7 +452,8 @@ body {
 .tn-giving-history-page,
 .tn-account-interests-page,
 .tn-account-memberships-page,
-.tn-contribution-individual-page {
+.tn-contribution-individual-page,
+.tn-pre-cart-page {
   border: none!important;
 }
 .btn {
@@ -480,7 +481,8 @@ body {
 .tn-giving-history-page,
 .tn-account-interests-page,
 .tn-account-memberships-page,
-.tn-contribution-individual-page  {
+.tn-contribution-individual-page,
+.tn-pre-cart-page  {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
