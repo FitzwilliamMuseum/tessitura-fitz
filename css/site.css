@@ -878,3 +878,7 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 {
   color: white!important;
 }
+
+.modal-dialog {
+    margin: 20vh auto 0px auto
+}
