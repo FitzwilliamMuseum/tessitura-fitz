@@ -897,3 +897,7 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 .tn-event-listing-view__results-container {
     background-color: white!important;
 }
+.bg-danger.alert.tn-heading-error a {
+    color: white!important;
+    text-decoration: underline;
+}
