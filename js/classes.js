@@ -39,3 +39,4 @@ $('.tn-add-donation-button').addClass('btn-dark');
 $('#dismiss_contact_permissions').addClass('btn-dark');
 $('#save_contact_permissions').addClass('btn-dark');
 $('.tn-heading-danger').removeClass('bg-danger').addClass('alert-dark');
+$('.tn-edit-billing-link').addClass('btn btn-dark mt-3');
