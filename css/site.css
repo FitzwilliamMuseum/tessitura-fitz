@@ -901,3 +901,7 @@ aside.tn-admin-preview-banner.alert.alert-warning {
     color: white!important;
     text-decoration: underline;
 }
+
+#tn-customisation-gift-aid > section > h1 {
+    display: none!important;
+}
