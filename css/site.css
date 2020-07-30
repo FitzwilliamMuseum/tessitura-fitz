@@ -902,3 +902,8 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 #tn-customisation-gift-aid > section > h1 {
     display: none!important;
 }
+
+.tn-event-listing-mode-tab-nav__list-item {
+  background-color: black!important;
+  color: white!important;
+}
