@@ -40,4 +40,4 @@ $('#dismiss_contact_permissions').addClass('btn-dark');
 $('#save_contact_permissions').addClass('btn-dark');
 $('.tn-heading-danger').removeClass('bg-danger').addClass('alert-dark');
 $('.tn-edit-billing-link').addClass('btn btn-dark mt-3');
-$('.tn-event-listing-mode-tab-nav__list-item').addClass('btn-dark');
+$('.tn-event-listing-mode-tab-nav__list-item').addClass('btn-dark btn');
