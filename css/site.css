@@ -548,7 +548,6 @@ nav.tn-subnav-component {
   transition-timing-function: cubic-bezier(.4,0,.2,1);
   color: rgba(0,0,0,.87);
   line-height: 1;
-  min-height: 3rem;
   opacity: .7;
   padding: 1.0625rem .75rem;
   position: relative;
@@ -595,16 +594,14 @@ section.tn-header-component h1 {
 }
 .tn-event-listing-mode-tab-nav__list-item{
   border: none!important;
-  background-color: transparent!important;
 }
 .tn-event-listing-mode-tab-nav__list-item.active {
   border: none!important;
-  background-color: transparent!important;
 }
 @media (min-width: 768px)
-.tn-prod-list-item__property--img-container {
-  grid-row: 1/span 3!important;
-}
+  .tn-prod-list-item__property--img-container {
+    grid-row: 1/span 3!important;
+  }
 }
 .tn-prod-season-header__title {
   align-self: start!important;
