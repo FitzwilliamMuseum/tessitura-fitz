@@ -907,3 +907,6 @@ aside.tn-admin-preview-banner.alert.alert-warning {
   background-color: black!important;
   color: white!important;
 }
+.tn-required-field {
+  color: darkred!important;
+}
