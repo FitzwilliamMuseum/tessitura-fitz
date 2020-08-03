@@ -454,7 +454,8 @@ body {
 .tn-account-memberships-page,
 .tn-contribution-individual-page,
 .tn-pre-cart-page,
-.tn-shipping-page {
+.tn-shipping-page,
+.tn-subnav-component {
   border: none!important;
 }
 .btn {
@@ -484,7 +485,8 @@ body {
 .tn-account-memberships-page,
 .tn-contribution-individual-page,
 .tn-pre-cart-page,
-.tn-shipping-page  {
+.tn-shipping-page,
+.tn-subnav-component  {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #ffffff;
@@ -540,7 +542,6 @@ body {
 
 nav.tn-subnav-component {
   margin-bottom: 20px;
-  margin-left: -5px;
 }
 .tn-event-listing-mode-tab-nav__list {
   transition-duration: .3s;
