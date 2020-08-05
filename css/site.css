@@ -911,3 +911,7 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 .tn-required-field {
   color: darkred!important;
 }
+#tn-detail-production-text-content > div > ul > li {
+    list-style: square;
+    margin-left: 30px!important;
+}
