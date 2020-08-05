@@ -41,5 +41,5 @@ $('#save_contact_permissions').addClass('btn-dark');
 $('.tn-heading-danger').removeClass('bg-danger').addClass('alert-dark');
 $('.tn-edit-billing-link').addClass('btn btn-dark mt-3');
 $('.tn-event-listing-mode-tab-nav__list-item').addClass('btn-dark btn');
-$('.col-sm-12 col-md-6').removeClass('col-sm-12 col-md-6').addClass('col-md-12');
+$('.col-sm-12').removeClass('col-sm-12').addClass('col-md-12');
 $('section.tn-interests .form-group').addClass('col-md-6');
