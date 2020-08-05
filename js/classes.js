@@ -9,7 +9,7 @@ $('a.btn.btn-info.btn-block.tn-register-button').addClass('btn-dark btn-lg');
 $('#tn-subnav-promo-code').addClass('form-control');
 $('#tn-apply-promo').addClass('form-inline');
 $('.tn-event-detail__unavailable-text').addClass('btn-dark btn-lg');
-$('.col-xs-12').addClass('col-lg-12').removeClass('col-xs-12');
+$('.col-xs-12').addClass('col-md-6').removeClass('col-xs-12');
 $('.col-sm-6').removeClass('col-sm-6');
 $('.tn-logout-link').addClass('btn-dark btn-lg');
 $('.tn-account-info-link').addClass('btn-dark btn-lg');
