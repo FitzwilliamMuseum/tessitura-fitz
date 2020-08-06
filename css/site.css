@@ -917,7 +917,9 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 .tn-event-detail__title {
   font-size: 1.1em!important;
 }
-@media (min-width: 768px)
-.tn-radio-button-list__list-item {
-    flex: 1 1 50%!important;
+
+@media (min-width: 768px) {
+  .tn-radio-button-list__list-item {
+      flex: 1 1 50%!important;
+  }
 }
