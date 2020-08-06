@@ -923,3 +923,6 @@ aside.tn-admin-preview-banner.alert.alert-warning {
       flex: 1 1 50%!important;
   }
 }
+label.tn-ticket-selector__pricetype-label-heading {
+    color: black!important;
+}
