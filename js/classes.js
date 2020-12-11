@@ -47,5 +47,5 @@ $('#tn-account-register-form > div:nth-child(13) > div').removeClass('col-md-6')
 $('.tn-prod-season-header__description-text-content').addClass('row');
 $('.tn-event-detail__title').addClass('btn btn-dark');
 $("h4.tn-ticket-selector__pricetype-name").text(function () {
-    return $(this).text().replace("£0.00", " FREE ENTRY"); 
+    return $(this).text().replace("£0.00", " FREE"); 
 });
