@@ -50,11 +50,3 @@ $('.tn-interests h2').hide();
 $("h4.tn-ticket-selector__pricetype-name").text(function () {
     return $(this).text().replace("£0.00", " FREE"); 
 });
-
-
-    if ($('.tn-cust-field-2').prop('checked')) {
-        $('.tn-interests div[class^="col"]:first-child').show();
-    } else {
-        $('.tn-interests div[class^="col"]:first-child').hide();
-    }
-
