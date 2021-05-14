@@ -50,6 +50,3 @@ $('.tn-interests h2').hide();
 $("h4.tn-ticket-selector__pricetype-name").text(function () {
     return $(this).text().replace("£0.00", " FREE"); 
 });
-$(".tn-interests label").text().slice(3);
-var tn3 = $.trim($( "tn-interest-3-label" ).text());
-tn3.slice(3);
