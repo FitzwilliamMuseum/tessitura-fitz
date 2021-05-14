@@ -46,6 +46,7 @@ $('section.tn-interests .form-group').addClass('col-md-6 interests');
 $('#tn-account-register-form > div:nth-child(13) > div').removeClass('col-md-6').addClass('col-md-12');
 $('.tn-prod-season-header__description-text-content').addClass('row');
 $('.tn-event-detail__title').addClass('btn btn-dark');
+$('.tn-interests h2').hide();
 $("h4.tn-ticket-selector__pricetype-name").text(function () {
     return $(this).text().replace("£0.00", " FREE"); 
 });
