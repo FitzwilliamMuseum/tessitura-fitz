@@ -13,8 +13,8 @@
 
 <!-- Cookie management -->
 <script type="text/javascript">
-  var prod = $('html').attr('data-tn-prod-season-no');
-
+  var prod = $('.tn-production-season-detail-page-layout__main-container tn-production-season-detail-page-layout__main-container--with-image').attr('data-tn-prod-season-no');
+  console.log(prod);
   switch (prod) {
   case '1017':
     alert('jQuery Wins!');
