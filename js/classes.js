@@ -27,7 +27,7 @@ $('.tn-prod-season-header').addClass('container');
 $('.tn-event-detail').addClass('container');
 $('.tn-event-detail__additional-events-container').addClass('col');
 $('.tn-event-detail__main-container').addClass('col');
-$('.tn-component-contact-permissions__settings__item').addClass('card').addClass('col');
+$('.tn-component-contact-permissions__settings__item').addClass('col');
 $('.tn-register-button').removeClass('btn-info');
 $('.tn-component-contact-permissions__settings').addClass('row');
 $('#dismiss_contact_permissions').addClass('btn-dark').addClass('btn-lg');
@@ -48,5 +48,5 @@ $('.tn-prod-season-header__description-text-content').addClass('row');
 $('.tn-event-detail__title').addClass('btn btn-dark');
 $('.tn-interests h2').hide();
 $("h4.tn-ticket-selector__pricetype-name").text(function () {
-    return $(this).text().replace("£0.00", " FREE"); 
+    return $(this).text().replace("£0.00", " FREE");
 });
