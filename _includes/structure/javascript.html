@@ -13,10 +13,15 @@
 
 <!-- Cookie management -->
 <script type="text/javascript">
- var images = [
- 'https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg',
- ];
- $('.head').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
- console.log($('.head').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'}));
+  if($(this)[0].hasAttribute("data-tn-prod-season-no")) {
+  var prod = $('html').attr('data-tn-prod-season-no');
+
+  switch (prod) {
+	case '1017':
+		alert('jQuery Wins!');
+		break;
+	default:
+		('.head').css({'background-image': 'url(https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg)'});
+  }
+};
 </script>
-<!--<script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=27vztiwhxkkwf3jlvvnxaw" async="true"></script>-->
