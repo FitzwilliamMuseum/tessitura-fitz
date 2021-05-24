@@ -11,6 +11,13 @@ html {
   margin-top: 3rem;
 }
 
+.l-footer #site-branding #logo img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 22rem;
+    max-height: 6rem;
+}
+
 .head {
   /* background-image: url('https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg'); */
   background-repeat: no-repeat;
