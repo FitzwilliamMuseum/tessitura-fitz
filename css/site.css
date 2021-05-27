@@ -943,3 +943,6 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 label.tn-ticket-selector__pricetype-label-heading {
     color: black!important;
 }
+.tn-heading-info {
+  background-color: #ffcdd2!important;
+}
