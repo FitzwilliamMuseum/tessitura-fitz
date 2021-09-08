@@ -954,10 +954,10 @@ label.tn-ticket-selector__pricetype-label-heading {
 
 /**
  * hide the (redundant) second email preferences area
- */
 .tn-component-contact-permissions__settings__item:last-child {
   display: none;
 }
+ */
 
 .tn-component__fieldset-label {
   /* to allow "required" text to float to the right of this label */
