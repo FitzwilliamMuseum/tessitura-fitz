@@ -72,9 +72,24 @@ document.body.addEventListener('click', function(event) {
 /**
  * Output a "required" label next to the email updates fieldset label
  */
-var emailFieldsetText = document.querySelector('.tn-component__fieldset-label.c1.ng-binding');
-var requiredText = document.createElement('small');
-requiredText.innerHTML = 'Required';
-requiredText.setAttribute('aria-hidden', 'true');
-requiredText.setAttribute('class', 'tn-required-field pull-right');
-emailFieldsetText.parentNode.insertBefore(requiredText, emailFieldsetText.nextSibling);
+if(document.querySelector('.tn-account-create-page')) {
+    var intervalID = setInterval(
+        makeEmailSettingsRequired,
+        500
+    );
+
+    function makeEmailSettingsRequired() {
+        console.log('check');
+        var emailFieldsetText = document.querySelector('.tn-component__fieldset-label.c1.ng-binding');
+
+        if(emailFieldsetText) {
+            console.log('clear');
+            clearInterval(intervalID);
+            var requiredText = document.createElement('small');
+            requiredText.innerHTML = 'Required';
+            requiredText.setAttribute('aria-hidden', 'true');
+            requiredText.setAttribute('class', 'tn-required-field pull-right');
+            emailFieldsetText.parentNode.insertBefore(requiredText, emailFieldsetText.nextSibling);
+        }
+    }
+}
