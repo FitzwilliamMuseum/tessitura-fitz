@@ -1,5 +1,7 @@
 # Fitzwilliam Museum Tessitura template
 
+[![DOI](https://zenodo.org/badge/235600955.svg)](https://zenodo.org/badge/latestdoi/235600955)
+
 This repository holds code for the template used by our installation of the
 Tessitura system. This is built using Jekyll and is a very simple system.
 
