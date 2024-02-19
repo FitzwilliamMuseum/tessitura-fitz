@@ -973,7 +973,14 @@ label.tn-ticket-selector__pricetype-label-heading {
 
 .navbar {
   height: 88px;
+  display: flex;
+  align-items: center;
 }
+
+.logo {
+  max-width: 200px;
+}
+
 .container .row .mt-4 {
   margin-top: 28px !important;
 }
@@ -986,7 +993,7 @@ label.tn-ticket-selector__pricetype-label-heading {
 }
 
 .fitz-footer {
-  max-width: 880px;
+  max-width: 1280px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -1005,11 +1012,37 @@ a.nav-link {
   color: white;
 }
 
+.tn-page-top {
+  max-width: 510px;
+  padding-bottom: 16px;
+}
+
+#btn-back-to-top {
+  bottom: 20px;
+  box-shadow: none;
+  display: none;
+  position: fixed;
+  right: 20px;
+}
+
+#btn-back-to-top:focus {
+  outline: 1px dotted;
+  outline-offset: -3px;
+  outline: 3px auto -webkit-focus-ring-color;
+}
+
+#btn-back-to-top:hover,
+#btn-back-to-top:active,
+#btn-back-to-top:focus {
+  background-image: none;
+  background-color: transparent;
+}
+
 .parallax {
   height: 365px;
 }
 
-.share a { 
+.share a {
   color: #000 !important;
 }
 
