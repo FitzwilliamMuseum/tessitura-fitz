@@ -70,10 +70,6 @@ html {
   } */
 }
 
-footer, .chip-icon {
-  background-color: #000000;
-}
-
 .bg-black {
   background-color: #000000!important;
 }
@@ -152,7 +148,7 @@ video {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: rgba(232, 98, 86, 0.8) url(../images/layouts/arrow.svg) no-repeat center 50%;
+  background: rgba(0,0,0) url(../images/layouts/arrow.svg) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
@@ -178,7 +174,7 @@ video {
 }
 
 .cd-top:hover {
-  background-color: #e86256;
+  background-color: #000;
   opacity: 1;
 }
 
@@ -616,7 +612,7 @@ section.tn-header-component h1 {
 .tn-event-listing-mode-tab-nav__list-item.active {
   border: none!important;
 }
-@media (min-width: 768px)
+@media (min-width: 768px) {
 .tn-prod-list-item__property--img-container {
   grid-row: 1/span 3!important;
 }
@@ -818,7 +814,6 @@ input#tn-subnav-promo-code {
   margin-right:10px;
 }
 
-}
 .tn-component-contact-permissions__settings__item__header {
   border-bottom: 1px solid black;
   font-weight: bold!important;
@@ -974,4 +969,87 @@ label.tn-ticket-selector__pricetype-label-heading {
  */
 .js .tn-interests {
   display: none;
+}
+
+.navbar {
+  height: 88px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.container .row .mt-4 {
+  margin-top: 28px !important;
+}
+.navbar .container {
+  max-width: 1290px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fitz-footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  padding: 28px 12px;
+}
+.fitz-footer div {
+  max-width: fit-content;
+}
+
+a.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: white;
+}
+
+.tn-page-top {
+  max-width: 510px;
+  padding-bottom: 16px;
+}
+
+#btn-back-to-top {
+  bottom: 20px;
+  box-shadow: none;
+  display: none;
+  position: fixed;
+  right: 20px;
+}
+
+#btn-back-to-top:focus {
+  outline: 1px dotted;
+  outline-offset: -3px;
+  outline: 3px auto -webkit-focus-ring-color;
+}
+
+#btn-back-to-top:hover,
+#btn-back-to-top:active,
+#btn-back-to-top:focus {
+  background-image: none;
+  background-color: transparent;
+}
+
+.parallax {
+  height: 365px;
+}
+
+.share a {
+  color: #000 !important;
+}
+
+.share a:hover {
+  text-decoration: none;
+}
+
+.eden {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(100deg) brightness(100%) contrast(100%);
 }
