@@ -1075,19 +1075,8 @@ a.nav-link {
   outline: 5px auto Highlight;
   outline: 5px auto -webkit-focus-ring-color;
 }
-a.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
 
-a.sr-only-focusable:focus,
-a.sr-only:focus {
+.doc-skip:focus {
   clip: auto;
   height: 45px;
   overflow: visible;
@@ -1101,7 +1090,9 @@ a.sr-only:focus {
   outline: 5px auto -webkit-focus-ring-color;
   z-index: 100;
 }
-
+/*
+  - this is to set AA contrast for the several elements
+*/
 .tn-prod-list-item__perf-date,
 .tn-prod-list-item__perf-time,
 .tn-prod-list-item__perf-property--datetime,
