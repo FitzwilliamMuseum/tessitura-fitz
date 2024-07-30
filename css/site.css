@@ -544,10 +544,13 @@ body {
   background-color: #000000!important;
   border-color: #000000!important; /*set the color you want here*/
 }
+.tn-events-keyword-filter__keyword-input:hover + .tn-events-keyword-filter__keyword-button, .tn-events-keyword-filter__keyword-input:active:focus + .tn-events-keyword-filter__keyword-button, .tn-events-keyword-filter__keyword-input:focus + .tn-events-keyword-filter__keyword-button, .tn-events-keyword-filter__keyword-input:active + .tn-events-keyword-filter__keyword-button, .tn-events-keyword-filter__keyword-input.active + .tn-events-keyword-filter__keyword-button, .tn-events-keyword-filter__keyword-input.open + .tn-events-keyword-filter__keyword-button,
 .tn-events-keyword-filter__keyword-button:hover, .tn-events-keyword-filter__keyword-button:active:focus, .tn-events-keyword-filter__keyword-button:focus, .tn-events-keyword-filter__keyword-button:active, .tn-events-keyword-filter__keyword-button.active, .open>.dropdown-toggle.tn-events-keyword-filter__keyword-button {
   color: #fff!important;
   background-color: #000000!important;
   border-color: #000000!important; /*set the color you want here*/
+  outline: 5px auto Highlight;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 .tn-timer-urgent {
   font-weight: bolder;
@@ -612,11 +615,7 @@ section.tn-header-component h1 {
 .tn-event-listing-mode-tab-nav__list-item.active {
   border: none!important;
 }
-@media (min-width: 768px) {
-.tn-prod-list-item__property--img-container {
-  grid-row: 1/span 3!important;
-}
-}
+
 .tn-prod-season-header__title {
   align-self: start!important;
 }
@@ -1026,9 +1025,8 @@ a.nav-link {
 }
 
 #btn-back-to-top:focus {
-  outline: 1px dotted;
-  outline-offset: -3px;
-  outline: 3px auto -webkit-focus-ring-color;
+  outline: 5px auto Highlight;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 #btn-back-to-top:hover,
@@ -1066,4 +1064,39 @@ a.nav-link {
 
 .radio input[type=radio] {
   margin-top: 5px;
+}
+
+.navbar-brand:focus {
+  outline: 5px auto Highlight;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.btn:focus {
+  outline: 5px auto Highlight;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.doc-skip:focus {
+  clip: auto;
+  height: 45px;
+  overflow: visible;
+  padding: 8px;
+  position: fixed;
+  top: 100px;
+  white-space: normal;
+  width: 220px;
+  background: #000;
+  color: #fff;
+  outline: 5px auto -webkit-focus-ring-color;
+  z-index: 100;
+}
+/*
+  - this is to set AA contrast for the several elements
+*/
+.tn-prod-list-item__perf-date,
+.tn-prod-list-item__perf-time,
+.tn-prod-list-item__perf-property--datetime,
+.tn-event-listing-view__results-heading,
+.tn-events-list-view__datepicker-divider-label {
+  color: #000000 !important;
 }
