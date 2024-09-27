@@ -3171,7 +3171,8 @@ fieldset:disabled a.btn {
 .btn-dark:active,
 .btn-dark:focus,
 .btn-dark:hover {
-    color: #fff
+    color: #fff;
+    outline-offset: 5px;
 }
 
 .btn-dark.active,
@@ -9027,7 +9028,6 @@ fieldset:disabled a.btn {
     letter-spacing: .02em;
     line-height: 1.4;
     position: relative;
-    white-space: nowrap
 }
 
 .navbar-brand:active,
@@ -10909,8 +10909,7 @@ a.bg-light:hover {
     bottom: 0
 }
 
-.fixed-bottom,
-.fixed-top {
+.fixed-bottom {
     left: 0;
     position: fixed;
     right: 0;
@@ -10918,7 +10917,16 @@ a.bg-light:hover {
 }
 
 .fixed-top {
-    top: 0
+    position: static;
+}
+
+@media screen and (min-height: 480px) {
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1030;
+    }
 }
 
 @supports ((position:-webkit-sticky) or (position:sticky)) {

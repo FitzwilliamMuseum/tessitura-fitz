@@ -8,7 +8,6 @@ html {
 }
 .jumbotron{
   margin-bottom: 0;
-  margin-top: 3rem;
 }
 .l-footer .region--copyright > div {
     display: inline-block;
@@ -42,8 +41,6 @@ html {
 @media screen and (max-width: 400px) {
   .head {
     padding-top: 100px;
-    /* display: none; */
-    /* visibility: hidden; */
   }
   .parallax {
     min-height: 100px;
@@ -551,13 +548,37 @@ body {
   border-color: #000000!important; /*set the color you want here*/
   outline: 5px auto Highlight;
   outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: 5px;
 }
 .tn-timer-urgent {
   font-weight: bolder;
 }
 
+.tn-events-keyword-filter__list-item {
+  margin: 16px 0;
+}
+
+
 nav.tn-subnav-component {
-  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+nav.tn-subnav-component > * {
+  margin: 24px 0;
+}
+@media screen and (min-width: 768px) {
+  nav.tn-subnav-component {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  nav.tn-subnav-component > * {
+    margin: 0;
+  }
 }
 .tn-event-listing-mode-tab-nav__list {
   transition-duration: .3s;
@@ -785,6 +806,7 @@ span.tn-radio-button-list__button.btn.btn-default:hover {
 
 input#tn-subnav-promo-code {
   height: 44px;
+  outline-offset: 5px;
 }
 .tn-prod-season-header__description-container {
   background-color: white!important;
@@ -991,18 +1013,6 @@ label.tn-ticket-selector__pricetype-label-heading {
   justify-content: flex-start;
 }
 
-.fitz-footer {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-items: center;
-  padding: 28px 12px;
-}
-.fitz-footer div {
-  max-width: fit-content;
-}
-
 a.nav-link {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -1074,6 +1084,7 @@ a.nav-link {
 .btn:focus {
   outline: 5px auto Highlight;
   outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: 5px;
 }
 
 .doc-skip:focus {
@@ -1099,4 +1110,48 @@ a.nav-link {
 .tn-event-listing-view__results-heading,
 .tn-events-list-view__datepicker-divider-label {
   color: #000000 !important;
+}
+
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-wrapper {
+        max-width: 1322px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.fitz-footer .footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 16px;
+}
+
+@media screen and (min-width: 756px) {
+    .fitz-footer .footer-wrapper div:nth-child(1) {
+        justify-self: start;
+    }
+
+    .fitz-footer .footer-wrapper div:last-child {
+        justify-self: end;
+    }
+}
+
+.fitz-footer-links .footer-wrapper {
+    padding: 16px;
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+}
+
+@media screen and (min-width: 756px) {
+    .fitz-footer-links .footer-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        justify-items: center;
+    }
 }
