@@ -1201,6 +1201,11 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 .form-control.tn-additional-events__date-select {
   height: 2.5rem !important;
 }
+
+.tn-event-listing-mode-tab-nav__list-item tn-focus-outline.btn-dark.btn.active,
+.tn-utility-nav-modal-promo-code-form__btn-open-modal.btn.btn-primary.btn-sm {
+  margin-left: 1rem !important;
+}
 /* 
   - TNEW v16 updates end
 */
