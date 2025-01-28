@@ -277,7 +277,7 @@ label.cm-app-label {
   color: white;
 }
 .btn {
-  white-space:normal !important;
+  white-space: nowrap !important;
   word-wrap: break-word;
 }
 .navbar nav {
@@ -435,7 +435,7 @@ body {
 /** OVER RIDE FOR TNEW **/
 
 .tn-prod-list-item__perf-property--action {
-  text-align: left!important;
+  text-align: center !important;
 }
 .btn-primary, .btn-default {
   background-color: #000!important;
@@ -1167,6 +1167,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   text-decoration: none;
 }
 .tn-prod-list-item__button.btn.btn-primary {
+  margin-left: auto;
   width: auto !important;
   display: flex;
   align-items: center;
@@ -1180,6 +1181,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 
 .tn-prod-list-item a {
   color: #731100 !important;
+  padding-right: 0;
 }
 @media (min-width: 768px) {
   .tn-event-listing-mode-tab-nav__list {
@@ -1220,7 +1222,9 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   margin-right: 5px;
   margin-left: 5px;
 }
-
+.tn-prod-list-item__perf-anchor {
+  padding-right: 0;
+}
 @media (min-width: 768px) {
   .tn-prod-list-item__perf-anchor {
       padding: 0.3125rem 0.625rem !important;
