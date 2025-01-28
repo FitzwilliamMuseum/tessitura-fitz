@@ -1250,6 +1250,11 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   font-weight: 500;
 }
 
+.btn-primary.disabled {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
 .btn-dark:hover,
 .btn-dark:active,
 .btn-dark:focus {
