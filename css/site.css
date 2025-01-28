@@ -1209,6 +1209,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 
 .tn-event-detail__unavailable-text.btn-dark.btn-lg {
   background: transparent !important;
+  color: #000 !important;
 }
 .tn-event-detail__unavailable-text.btn-dark.btn-lg a {
   font-weight: 700 !important;
