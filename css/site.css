@@ -1195,7 +1195,19 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 
 .tn-radio-button-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  .tn-radio-button-list {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tn-radio-button-list {
+      grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .form-control.tn-additional-events__date-select {
