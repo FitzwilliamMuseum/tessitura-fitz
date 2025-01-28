@@ -1167,6 +1167,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   text-decoration: none;
 }
 .tn-prod-list-item__button.btn.btn-primary {
+  margin-left: auto;
   width: auto !important;
   display: flex;
   align-items: center;
@@ -1221,7 +1222,9 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   margin-right: 5px;
   margin-left: 5px;
 }
-
+.tn-prod-list-item__perf-anchor {
+  padding-right: 0;
+}
 @media (min-width: 768px) {
   .tn-prod-list-item__perf-anchor {
       padding: 0.3125rem 0.625rem !important;
