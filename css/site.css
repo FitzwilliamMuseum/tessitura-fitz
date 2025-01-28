@@ -1198,7 +1198,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 425px) {
   .tn-radio-button-list {
       grid-template-columns: repeat(2, 1fr);
   }
