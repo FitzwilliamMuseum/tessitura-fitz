@@ -1130,6 +1130,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   background-color: #000 !important;
   font-size: 1rem !important;
 }
+
 .tn-utility-nav-inline-promo-code-form__input-container {
   align-self: stretch;
 }
@@ -1241,6 +1242,18 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   .tn-prod-list-item__perf-anchor {
       padding: 0.3125rem 0.625rem !important;
   }
+}
+
+.btn-dark {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 /* 
   - TNEW v16 updates end
