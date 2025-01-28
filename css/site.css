@@ -1244,6 +1244,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   background-color: #000 !important;
   color: #fff !important;
   font-weight: 500;
+  font-size: 1rem !important;
 }
 
 .btn-primary.disabled {
