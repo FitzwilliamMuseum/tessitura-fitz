@@ -1247,6 +1247,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 .btn-dark {
   background-color: #000 !important;
   color: #fff !important;
+  font-weight: 500;
 }
 
 .btn-dark:hover,
