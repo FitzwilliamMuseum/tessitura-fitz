@@ -1190,7 +1190,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   }
 }
 
-.tn-prod-season-header__description-text-content .row {
+.tn-prod-season-header__description-text-content.row {
   margin: 0 !important;
 }
 
