@@ -6,10 +6,7 @@ html {
   background-attachment: fixed;
   background-size: cover;
 }
-.jumbotron{
-  margin-bottom: 0;
-  margin-top: 3rem;
-}
+
 .l-footer .region--copyright > div {
     display: inline-block;
     vertical-align: top;
@@ -1100,3 +1097,110 @@ a.nav-link {
 .tn-events-list-view__datepicker-divider-label {
   color: #000000 !important;
 }
+/*
+
+  TNEW v16 updates start
+
+*/
+
+.navbar {
+  margin-bottom: 0 !important;
+}
+.tn-events-list-view__btn-reset-dates.btn.btn-default.btn-sm,
+.tn-event-listing-mode-tab-nav__list-item.tn-focus-outline.btn-dark.btn,
+.btn.btn-default.btn-sm.tn-events-keyword-filter__btn-clear-all-keywords,
+span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default,
+a.tn-utility-nav-account-login-link.btn.btn-sm.btn-dark {
+  padding: 0.625rem 1rem !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+}
+a.tn-utility-nav-account-login-link.btn.btn-sm.btn-dark,
+a.tn-utility-nav-cart-link.btn.btn-sm.btn-dark,
+span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
+  display: flex;
+  align-items: center;
+}
+
+.btn.btn-default.btn-lg.tn-btn-datepicker__btn {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.btn.btn-sm.btn-dark {
+  padding: 0.625rem 1rem !important;
+  color: #fff !important;
+  background-color: #000 !important;
+  font-size: 1rem !important;
+}
+.tn-utility-nav-inline-promo-code-form__input-container {
+  align-self: stretch;
+}
+.tn-utility-nav-inline-promo-code-form__input {
+  height: 100% !important;
+}  
+.tn-utility-nav-promo-code-section {
+  height: 100%;
+  display: flex;
+} 
+.tn-utility-nav-cart-link.btn.btn-sm.btn-dark {
+  padding-right: 2rem !important;
+}
+.tn-event-listing-mode-tab-nav__list-item.active {
+  margin-bottom: 0 !important;
+}
+.tn-events-keyword-filter__icon-checked, .tn-events-keyword-filter__icon-unchecked {
+  height: 1rem !important;
+  width: 1rem !important;
+}
+.tn-events-keyword-filter__keyword-input:checked+.tn-events-keyword-filter__keyword-button .tn-events-keyword-filter__icon-checked {
+  display: inline-flex !important;
+}
+
+.tn-events-keyword-filter__keyword-input:checked+ .tn-icon.tn-icon--check-square-fill.tn-events-keyword-filter__icon-checked svg use {
+  fill: #fff !important;
+}
+
+#tn-event-listing-mode-nav-calendar-view {
+  background: #000 !important;
+}
+
+.share.text-center a {
+  text-decoration: none;
+}
+.tn-prod-list-item__button.btn.btn-primary {
+  width: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tn-prod-list-item__property--perf-list .tn-prod-list-item__button.btn.btn-primary .tn-prod-list-item__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.tn-prod-list-item a {
+  color: #731100 !important;
+}
+@media (min-width: 768px) {
+  .tn-event-listing-mode-tab-nav__list {
+      margin-top: 2.1875px !important;
+  }
+}
+
+.tn-prod-season-header__description-text-content .row {
+  margin: 0 !important;
+}
+
+.tn-radio-button-list {
+  flex-wrap: nowrap !important;
+}
+
+.form-control.tn-additional-events__date-select {
+  height: 2.5rem !important;
+}
+/* 
+  - TNEW v16 updates end
+*/
