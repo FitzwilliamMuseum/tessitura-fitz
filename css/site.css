@@ -435,7 +435,7 @@ body {
 /** OVER RIDE FOR TNEW **/
 
 .tn-prod-list-item__perf-property--action {
-  text-align: left!important;
+  text-align: center !important;
 }
 .btn-primary, .btn-default {
   background-color: #000!important;
