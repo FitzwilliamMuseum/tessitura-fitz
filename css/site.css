@@ -1192,7 +1192,8 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 }
 
 .tn-radio-button-list {
-  flex-wrap: nowrap !important;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .form-control.tn-additional-events__date-select {
