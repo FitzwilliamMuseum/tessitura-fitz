@@ -1160,10 +1160,6 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   fill: #fff !important;
 }
 
-#tn-event-listing-mode-nav-calendar-view {
-  background: #000 !important;
-}
-
 .share.text-center a {
   text-decoration: none;
 }
@@ -1245,6 +1241,12 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 }
 
 .btn-dark {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.btn-primary.disabled {
   background-color: #000 !important;
   color: #fff !important;
 }
