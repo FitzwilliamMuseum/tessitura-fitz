@@ -277,7 +277,7 @@ label.cm-app-label {
   color: white;
 }
 .btn {
-  white-space:normal !important;
+  white-space: nowrap !important;
   word-wrap: break-word;
 }
 .navbar nav {
@@ -1180,6 +1180,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 
 .tn-prod-list-item a {
   color: #731100 !important;
+  padding-right: 0;
 }
 @media (min-width: 768px) {
   .tn-event-listing-mode-tab-nav__list {
