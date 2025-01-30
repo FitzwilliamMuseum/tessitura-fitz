@@ -1265,7 +1265,13 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 .tn-component__radio-group {
   margin-left: 1.25rem !important;
 }
-
+@media (min-width: 768px) {
+  #tn-account-register-form .col-md-6 {
+      -ms-flex: 0 0 66.666667% !important;
+      flex: 0 0 66.666667% !important;
+      max-width: 66.666667% !important;
+  }
+}
 /* 
   - TNEW v16 updates end
 */
