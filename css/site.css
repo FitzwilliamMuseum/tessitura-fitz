@@ -812,7 +812,6 @@ input#tn-subnav-promo-code {
 
 .tn-component-contact-permissions__settings__item__header {
   border-bottom: 1px solid black;
-  font-weight: bold!important;
 }
 
 a.tn-account-info-link.btn-dark.btn-lg {
@@ -1264,7 +1263,14 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   grid-column: 1 / 3 !important;
 }
 .tn-component__radio-group {
-  margin-left: 0.625rem !important;
+  margin-left: 1.25rem !important;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 .tn-address-component {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+  }
 }
 
 /* 
