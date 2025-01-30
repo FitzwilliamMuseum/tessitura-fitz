@@ -1,59 +1,41 @@
 /**
- * Helper function that returns "true" if one radio in a group has been selected,
- * and "false" if none have been selected at all.
- *
- * @param radioGroupName
- * @returns {boolean}
+ * Checks if at least one newsletter checkbox is selected
+ * @returns {boolean} True if at least one checkbox is selected
  */
-function isRadioSelected(radioGroupName) {
-    var radios = document.querySelectorAll('input[name="' + radioGroupName + '"]');
-
-    for(var i = 0; i < radios.length; i++) {
-        if( radios[i].checked ) {
-            return true;
-        }
-    }
-
-    return false;
-}
-
-
+const isCheckboxSelected = () => {
+    const checkboxes = [...document.querySelectorAll('.tn-interests input[name="SelectedInterests.InterestsSelected"]')];
+    return checkboxes.some(checkbox => checkbox.checked);
+};
 
 /**
- * Check that the user has selected an email preference option when the registration
- * form is submitted
+ * Form validation handler
+ * Prevents form submission if no newsletter is selected
  */
-document.body.addEventListener('click', function(event) {
-    var target = event.target;
+document.body.addEventListener('click', event => {
+    const { target } = event;
 
-    if(target.id === 'tn-account-register-button-register') {
-        // check if email radio button has been selected
-        if(!isRadioSelected('tn-cust-field-2')) {
+    if (target.id === 'tn-account-register-button-register') {
+        if (!isCheckboxSelected()) {
             event.preventDefault();
-
-            alert('Please select an option for email updates.');
-
-            document.querySelector('.tn-component__fieldset-radio.ng-scope').scrollIntoView();
+            alert('Please select at least one newsletter option.');
+            document.querySelector('.tn-interests').scrollIntoView({ block: 'center', behavior: 'smooth' });
         }
     }
 });
-
-
-
 /**
  * Hide/show the email preference options based on whether the user has selected
  * "yes" or "no" under the "Are you happy to receive email updates" form item
  */
 document.body.addEventListener('click', function(event) {
-    var target = event.target;
     var interestsContainer = document.querySelector('.tn-interests');
 
-    if(target.id === '2-0' || target.getAttribute('label') === '2-0') {
-        //user has selected yes
-        interestsContainer.setAttribute('style', 'display: block;');
-    } else if(target.id === '2-1' || target.getAttribute('label') === '2-1') {
-        // user has selected no
-        interestsContainer.setAttribute('style', 'display: none;');
+    const postConsent = document.querySelector('input[name="tn-cust-field-contact_perm_kvp_5-1"]');
+    const emailConsent = document.querySelector('input[name="tn-cust-field-contact_perm_kvp_2-1"]');
+
+    if(postConsent.classList.contains('ng-valid-parse') || emailConsent.classList.contains('ng-valid-parse')) {
+        interestsContainer.setAttribute('style', 'display: block');
+    } else {
+        interestsContainer.setAttribute('style', 'display: none');
     }
 });
 
