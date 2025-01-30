@@ -1267,7 +1267,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 }
 
 @media (min-width: 768px) {
-  .col-md-6.tn-address-component {
+  .col-md-6 .tn-address-component {
       flex: 0 0 100% !important;
       max-width: 100% !important;
   }
