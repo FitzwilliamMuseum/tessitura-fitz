@@ -1272,6 +1272,17 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
       max-width: 66.666667% !important;
   }
 }
+
+.tn-account-login-forgot-login-link {
+  background: #000 !important;
+  color: #fff !important;
+}
+.tn-account-login-forgot-login-link:hover
+.tn-account-login-forgot-login-link:active
+.tn-account-login-forgot-login-link:focus {
+  background: #000 !important;
+  color: #fff !important;
+}
 /* 
   - TNEW v16 updates end
 */
