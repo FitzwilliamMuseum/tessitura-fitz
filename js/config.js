@@ -77,7 +77,7 @@ cc.run({
                 blocks: [
                     {
                         title: 'Cookie usage and the Fitzwilliam website',
-                        description: 'The Fitzwilliam Museum uses cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
+                        description: 'The Fitzwilliam Museum uses cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="https://fitzmuseum.cam.ac.uk/about-us/privacy-and-cookies" class="cc-link">privacy policy</a>.'
                     }, {
                         title: 'Strictly necessary cookies',
                         description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
@@ -111,7 +111,7 @@ cc.run({
                         ]
                     }, {
                         title: 'Advertisement and Targeting cookies',
-                        description: 'These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymized and cannot be used to identify you',
+                        description: 'These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymised and cannot be used to identify you',
                         toggle: {
                             value: 'targeting',
                             enabled: false,
