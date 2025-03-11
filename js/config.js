@@ -119,7 +119,7 @@ cc.run({
                         }
                     }, {
                         title: 'More information',
-                        description: 'For any queries in relation to our policy on cookies and your choices, please review <a class="cc-link" href="/about-us/privacy-and-cookies">the University of Cambridge policy</a>.',
+                        description: 'For any queries in relation to our policy on cookies and your choices, please review <a class="cc-link" href="https://fitzmuseum.cam.ac.uk/about-us/privacy-and-cookies">the Fitzwilliam Museum\'s and University of Cambridge\'s policy</a>.',
                     }
                 ]
             }
