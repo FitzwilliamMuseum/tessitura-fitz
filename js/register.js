@@ -8,6 +8,15 @@ const isCheckboxSelected = () => {
 };
 
 /**
+ * Checks if the user has specified a radio input
+ * @returns {boolean} True if at least one radio is selected
+ */
+const isRadioSelected = (radioInputName) => {
+    const radios = [...document.querySelectorAll('input[name="' + radioInputName + '"]')];
+    return radios.some(radio => radio.checked);
+};
+
+/**
  * Form validation handler
  * Prevents form submission if no newsletter is selected
  */
@@ -15,13 +24,20 @@ document.body.addEventListener('click', event => {
     const { target } = event;
 
     if (target.id === 'tn-account-register-button-register') {
-        if (!isCheckboxSelected()) {
+        // if (!isCheckboxSelected()) {
+        //     event.preventDefault();
+        //     alert('Please select at least one newsletter option.');
+        //     document.querySelector('.tn-interests').scrollIntoView({ block: 'center', behavior: 'smooth' });
+        // }
+
+        if (!isRadioSelected('tn-cust-field-contact_perm_kvp_2-1')) {
             event.preventDefault();
-            alert('Please select at least one newsletter option.');
-            document.querySelector('.tn-interests').scrollIntoView({ block: 'center', behavior: 'smooth' });
+            alert('Please select an option for email updates.');
+            document.querySelector('#tn-cust-category-heading-1').scrollIntoView({ block: 'center', behavior: 'smooth' });
         }
     }
 });
+
 /**
  * Hide/show the email preference options based on whether the user has selected
  * "yes" or "no" under the "Are you happy to receive email updates" form item
