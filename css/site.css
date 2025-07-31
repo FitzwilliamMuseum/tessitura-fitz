@@ -1286,3 +1286,11 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 /* 
   - TNEW v16 updates end
 */
+
+#tn-utility-nav-inline-promo-code-form-input {
+  border-color: #000;
+}
+
+.tn-utility-nav-inline-promo-code-form__label {
+  color: #000;
+}
