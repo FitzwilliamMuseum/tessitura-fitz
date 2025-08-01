@@ -277,7 +277,6 @@ label.cm-app-label {
   color: white;
 }
 .btn {
-  white-space: nowrap !important;
   word-wrap: break-word;
 }
 .navbar nav {
@@ -1110,6 +1109,7 @@ a.tn-utility-nav-account-login-link.btn.btn-sm.btn-dark {
   background-color: #000 !important;
   color: #fff !important;
   font-size: 1rem !important;
+  white-space: normal !important;
 }
 a.tn-utility-nav-account-login-link.btn.btn-sm.btn-dark,
 a.tn-utility-nav-cart-link.btn.btn-sm.btn-dark,
@@ -1293,4 +1293,13 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 
 .tn-utility-nav-inline-promo-code-form__label {
   color: #000;
+}
+
+#tn-event-listing-mode-nav-list-view, 
+#tn-event-listing-mode-nav-calendar-view {
+  white-space: normal !important;
+}
+
+.tn-utility-nav {
+  flex-wrap: wrap !important;
 }
