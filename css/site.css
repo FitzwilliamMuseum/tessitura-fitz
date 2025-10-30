@@ -520,6 +520,7 @@ button#tn-subnav-promo-button {
 }
 body {
   background-color: #dcd9d945!important;
+  padding-top: 88px;
 }
 .btn-primary:disabled {
   color: #fff;
@@ -1302,4 +1303,20 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 
 .tn-utility-nav {
   flex-wrap: wrap !important;
+}
+
+.head.jumbotron {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+    padding-top: 0;
+  }
+
+  .head.jumbotron {
+    display: block;
+  }
+
 }
