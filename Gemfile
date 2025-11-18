@@ -29,8 +29,17 @@ end
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
-  gem "webrick"
 end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", :install_if => Gem.win_platform?
+
+gem "csv", "~> 3.3"
+
+gem "logger", "~> 1.7"
+
+gem "base64", "~> 0.3.0"
+
+gem "bigdecimal", "~> 3.3"
+
+gem "webrick", "~> 1.9"
