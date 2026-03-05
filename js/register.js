@@ -43,6 +43,11 @@ document.body.addEventListener('click', event => {
  * "yes" or "no" under the "Are you happy to receive email updates" form item
  */
 document.body.addEventListener('click', function(event) {
+    // Can add more here to prevent firing on certain elements
+    if (event.target.classList.contains('accordion__toggle')) {
+        return;
+    }
+
     var interestsContainer = document.querySelector('.tn-interests');
 
     const postConsent = document.querySelector('input[name="tn-cust-field-contact_perm_kvp_5-1"]');
