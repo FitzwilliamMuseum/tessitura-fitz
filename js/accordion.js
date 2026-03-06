@@ -53,6 +53,7 @@ function addAccordion() {
             '      </svg>';
         toggle.setAttribute('aria-expanded', 'false');
         toggle.setAttribute('aria-controls', 'accordion-body');
+        toggle.setAttribute('aria-label', 'Toggle content');
         accordionHeader.appendChild(toggle);
 
         // Toggle action
@@ -83,7 +84,6 @@ function addAccordion() {
 
         // Output the whole thing
         ticket_container.appendChild(accordion);
-        console.log(accordion);
     })
 
 }
