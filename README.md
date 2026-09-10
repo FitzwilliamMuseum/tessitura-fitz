@@ -19,6 +19,18 @@ The CSS overrides many of the default options that come out of the box from Tess
    `git clone https://github.com/FitzwilliamMuseum/tessitura-fitz tessitura-fitz`
 * Change to the directory and then run this command in terminal `bundle exec jekyll serve`
 
+## Deployment
+
+### Production 
+
+### Staging
+
+To deploy the staging Tessitura template, please run the following command from the root of the `tessitura-fitz` codebase:
+
+````bash
+rsync -avh _site/ fitzwilliam-sites:/var/www/beta.fitz.ms/public/tessitura_staging_templates
+````
+
 ## Credits
 
 Copyright the University of Cambridge unless noted otherwise.
