@@ -1155,11 +1155,11 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 }
 .tn-utility-nav-inline-promo-code-form__input {
   height: 100% !important;
-}  
+}
 .tn-utility-nav-promo-code-section {
   height: 100%;
   display: flex;
-} 
+}
 .tn-utility-nav-cart-link.btn.btn-sm.btn-dark {
   padding-right: 2rem !important;
 }
@@ -1303,7 +1303,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   background: #000 !important;
   color: #fff !important;
 }
-/* 
+/*
   - TNEW v16 updates end
 */
 
@@ -1315,7 +1315,7 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
   color: #000;
 }
 
-#tn-event-listing-mode-nav-list-view, 
+#tn-event-listing-mode-nav-list-view,
 #tn-event-listing-mode-nav-calendar-view {
   white-space: normal !important;
 }
@@ -1338,4 +1338,24 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
     display: block;
   }
 
+}
+
+/**
+ * Styles for the show/hide password button
+ */
+.password-field-container {
+  position: relative;
+}
+
+.password-toggle-button {
+  background: transparent;
+  border: 0;
+  border-left: 1px solid #bbb;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 0 7px 0 6px;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  width: 50px;
 }
