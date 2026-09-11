@@ -194,6 +194,11 @@ video {
   opacity: 1;
 }
 
+.tn-utility-nav-cart-timer {
+  background: #fff;
+  z-index: 4000;
+}
+
 @media only screen and (min-width: 768px) {
   .cd-top {
     right: 20px;
@@ -204,6 +209,10 @@ video {
 @media only screen and (max-width: 768px) {
   .ucm-hide {
     display: none;
+  }
+
+  .tn-utility-nav-cart-controls-section {
+    flex: 0 1 auto;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -322,7 +331,7 @@ label.cm-app-label {
   color: #000;
 }
 .navbar {
-  z-index: 2147483647;
+  z-index: 2000;
 }
 
 .txt-intro {
@@ -515,17 +524,44 @@ body {
 .tn-pre-cart-page,
 .tn-shipping-page,
 .tn-subnav-component  {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
   background-color: #ffffff;
-  /*padding: 20px;*/
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 20px;
 }
+
+.tn-cart-buttons {
+  margin-bottom: 0;
+}
+
+.tn-cart-buttons__primary-action,
+.tn-cart-buttons__secondary-action {
+  display: inline-block;
+  font-size: 16px !important;
+  line-height: 16px;
+  padding: 12px 16px;
+}
+
 label {
   font-size: 1rem;
 }
 
+.tn-event-detail {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tn-event-detail__title.btn {
+  display: none;
+  margin-top: 10px;
+}
+
 .tn-event-detail__main-container {
   margin-bottom: 10px!important;
+  padding-left: 0;
+  padding-right: 0;
 }
 .tn-event-detail__additional-events-container {
   margin-right: 60px!important;
@@ -588,6 +624,11 @@ nav.tn-subnav-component {
   font-size: 1rem!important;
   border: none!important;
 }
+
+.tn-header-component {
+  margin-bottom: 0;
+}
+
 section.tn-header-component h1 {
   margin-bottom: 0.2em;
 }
@@ -632,9 +673,26 @@ section.tn-header-component h1 {
   border: none!important;
 }
 
+.tn-prod-season-header {
+  margin-bottom: 5px;
+}
+
 .tn-prod-season-header__title {
   align-self: start!important;
 }
+
+.tn-prod-season-header__image-wrapper {
+  padding-left: 0;
+}
+
+/* The client has requested we hide the dates
+   as they are also output as a separate heading
+   further down the page
+ */
+.tn-prod-season-header__date-container {
+  display: none;
+}
+
 .tn-prod-list-item__property--heading {
   grid-column: 1!important;
   grid-column-end: -1!important;
@@ -726,10 +784,11 @@ tn-datepicker td.month, .tn-datepicker td.year {
 .btn-lg {
   border-radius: 2px !important;
 }
-main.tn-events-listing-page, main.tn-contribution-group-page {
+main.tn-events-listing-page,
+main.tn-contribution-group-page {
   background-color: #fff;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 0 -15px 20px -15px;
 }
 .tn-events-calendar__event-status {
   text-transform: none !important;
@@ -796,6 +855,10 @@ span.tn-radio-button-list__button.btn.btn-default:hover {
   margin-left: 20px;
 }
 .tn-event-detail__display-time, .tn-event-detail__location {
+  /* As all events are anticipated to be at the Fitzwilliam museum,
+     the client has asked us to hide this output for now
+   */
+  display: none;
   font-size: 1.6em !important;
 }
 
@@ -804,9 +867,12 @@ input#tn-subnav-promo-code {
 }
 .tn-prod-season-header__description-container {
   background-color: white!important;
+  margin-top: 0;
+  padding: 0;
 }
 .tn-prod-season-header {
   border-bottom: 0px !important;
+  padding: 0;
 }
 .tn-event-detail__additional-events-container {
   background-color: white!important;
@@ -841,9 +907,22 @@ a.tn-account-info-link.btn-dark.btn-lg {
   content: ""!important;
 }
 
+.tn-cart-item-summary__property--name,
+.tn-cart-item-summary__property--secondary {
+  display: block;
+}
+
 li.tn-cart-item-summary__property.tn-cart-item-summary__property--secondary.tn-cart-item-summary__property--date-time,
 li.tn-cart-item-summary__property.tn-cart-item-summary__property--secondary.tn-cart-item-summary__property--location {
   font-weight: bold;
+}
+
+.tn-cart-totals {
+  margin-top: 10px;
+}
+
+.tn-cart-totals__label {
+  margin-bottom: 2px !important;
 }
 
 .tn-component-contact-permissions__footer-actions {
@@ -853,9 +932,6 @@ li.tn-cart-item-summary__property.tn-cart-item-summary__property--secondary.tn-c
 h2,h3,h4 {
   margin-top: 15px!important;
   margin-bottom: 15px!important;
-}
-.tn-cart-totals__value.tn-cart-totals__value--total {
-  margin-top: 15px!important;
 }
 
 .tn-event-listing-view__no-results-content {
@@ -898,7 +974,23 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 .tn-additional-events__continue-shopping-link {
   white-space: nowrap;
 }
-.modal-footer .btn-primary, .modal-footer .btn-primary:active, .modal-footer .btn-primary:focus, .modal-footer .btn-primary:hover
+
+.modal-dialog {
+  max-width: 95vw;
+}
+
+.modal-footer {
+  gap: 10px;
+}
+
+.modal-footer .btn-primary,
+.modal-footer .btn-primary:active,
+.modal-footer .btn-primary:focus,
+.modal-footer .btn-primary:hover,
+.modal-footer .btn-default,
+.modal-footer .btn-default:active,
+.modal-footer .btn-default:focus,
+.modal-footer .btn-default:hover
 {
   color: white!important;
 }
@@ -948,6 +1040,11 @@ aside.tn-admin-preview-banner.alert.alert-warning {
 label.tn-ticket-selector__pricetype-label-heading {
     color: black!important;
 }
+
+#tn-quantity-selection-text {
+  margin-top: 1rem;
+}
+
 .tn-heading-info {
   background-color: #ffcdd2!important;
 }
@@ -1326,6 +1423,10 @@ span.tn-events-keyword-filter__keyword-button.btn.btn-xs.btn-default {
 .tn-utility-nav {
   flex-wrap: wrap !important;
   gap: 10px;
+}
+
+.tn-utility-nav--timer-active {
+  padding-top: 10px;
 }
 
 .head.jumbotron {
