@@ -11,6 +11,11 @@ The CSS overrides many of the default options that come out of the box from Tess
 
 ![A screenshot of the TNEW instance](/images/screenshots/tnew-screenshot.png)
 
+## URLs
+
+- Production: https://tickets.museums.cam.ac.uk
+- Staging: https://fitz-tnew-test.tnhs.cloud
+
 ## To run locally
 
 * Install Jekyll on your machine following these [instructions](https://jekyllrb.com/docs/installation/)
@@ -28,7 +33,13 @@ The CSS overrides many of the default options that come out of the box from Tess
 To deploy the staging Tessitura template, please run the following command from the root of the `tessitura-fitz` codebase:
 
 ````bash
-rsync -avh _site/ fitzwilliam-sites:/var/www/beta.fitz.ms/public/tessitura_staging_templates
+rsync -avh _site/ fitzwilliam-sites:/var/www/beta.fitz.ms/public/tessitura-fitz
+````
+
+And then run the following command from the server:
+
+````bash
+grep -rl 'http://localhost:4000/tessitura-fitz' /var/www/beta.fitz.ms/public/tessitura-fitz | xargs sed -i 's|http://localhost:4000/tessitura-fitz|https://fitzmuseum.cam.ac.uk/tessitura-fitz|g'
 ````
 
 ## Credits
