@@ -555,7 +555,8 @@ label {
 
 .tn-event-detail__title.btn {
   display: none;
-  margin-top: 10px;
+  line-height: 1.3;
+  white-space: wrap;
 }
 
 .tn-event-detail__main-container {
@@ -854,7 +855,9 @@ span.tn-radio-button-list__button.btn.btn-default:hover {
   color: black;
   margin-left: 20px;
 }
-.tn-event-detail__display-time, .tn-event-detail__location {
+
+/*.tn-event-detail__display-time,*/
+.tn-event-detail__location {
   /* As all events are anticipated to be at the Fitzwilliam museum,
      the client has asked us to hide this output for now
    */
@@ -923,6 +926,7 @@ li.tn-cart-item-summary__property.tn-cart-item-summary__property--secondary.tn-c
 
 .tn-cart-totals__label {
   margin-bottom: 2px !important;
+  margin-top: 0 !important;
 }
 
 .tn-component-contact-permissions__footer-actions {
